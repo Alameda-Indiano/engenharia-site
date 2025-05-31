@@ -4,16 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sobre - Capella Engenharia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-...=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../../../public/styles/tailwind.css" />
   </head>
+
   <body>
     <header-and-footer>
       <section>
         <div
-          class="w-full h-[500px] flex items-center justify-center bg-cover bg-center"
-          style="background-image: url('/images/svg/about/bg.svg')"
+          class="w-full h-[90vh] flex flex-col items-center justify-center bg-cover bg-center text-center px-4 md:px-0"
+          style="background-image: url('/public/images/svg/about/bg.svg')"
         >
-          <h1 class="text-primary text-4xl font-bold">textos</h1>
+          <p class="text-sm uppercase text-text-details tracking-wide mb-4">
+            Engenharia, Estrutura e Confiança
+          </p>
+          <h1 class="text-2xl md:text-4xl text-white font-bold mb-4">
+            Alta performance em cada metro quadrado entregue
+          </h1>
+          <p class="text-base md:text-md text-white max-w-3xl leading-relaxed">
+            Acreditamos que engenharia é mais do que construção — é inteligência
+            aplicada, capaz de transformar espaços, potencializar operações e
+            impulsionar o crescimento de empresas. Por isso, cada projeto que
+            entregamos carrega nossa marca: qualidade, precisão e confiança.
+          </p>
         </div>
+        <div class="w-full h-24 bg-shadow-default"></div>
+      </section>
+      <section
+        class="max-w-7xl mx-auto py-20 px-6 md:px-0 flex flex-col md:flex-row items-center gap-10"
+      >
+        <img
+          src="/public/images/svg/about/woman.svg"
+          alt="Mulher"
+          class="md:w-[40%] object-contain"
+        />
+
+        <div class="border-l-[7px] border-text-details pl-6 md:w-[60%]">
+          <h2 class="text-2xl font-bold text-text-primary mb-6">
+            Entre os principais nomes da engenharia nacional, unimos
+            experiência, inovação e visão estratégica.
+          </h2>
+          <p class="text-text-default text-base leading-relaxed">
+            A Capella Engenharia integra um grupo com sólida atuação no mercado,
+            somando mais de uma década de expertise em projetos de alto
+            desempenho nos setores industrial, corporativo e de infraestrutura.
+            Com DNA técnico e foco em resultado, desenvolvemos soluções
+            completas para obras que exigem precisão, agilidade e qualidade — da
+            fundação à entrega final. Somos uma empresa que vai além da
+            execução: oferecemos planejamento inteligente, gestão integrada e
+            acompanhamento técnico especializado em todas as etapas do projeto.
+            Atendemos empresas que buscam excelência, segurança e eficiência
+            como base de crescimento sustentável.
+          </p>
+        </div>
+      </section>
+      <section class="bg-secondary w-full py-20">
+        <div class="max-w-7xl mx-auto px-0">
+          <h2
+            class="text-2xl md:text-3xl font-bold text-white mb-20 text-center"
+          >
+            Por que Fazemos o que Fazemos?
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 divide-x divide-white">
+            <card-about
+              icon="/public/images/icons/eye.svg"
+              title="Visão"
+              text="A Capella Engenharia visa atender às necessidades de nossos clientes, tendo em foco a excelência no padrão de qualidade dos nossos serviços com transparência aos nossos clientes."
+            ></card-about>
+
+            <card-about
+              icon="/public/images/icons/values.svg"
+              title="Valores"
+              text="Baseamos nossa atuação na construção do carinho e respeito com clientes e colaboradores, promovendo desenvolvimento profissional e um ambiente de trabalho seguro e saudável. Também adotamos estratégias sustentáveis que minimizam impactos ambientais e contribuem para um futuro melhor."
+            ></card-about>
+
+            <card-about
+              icon="/public/images/icons/mission.svg"
+              title="Missão"
+              text="Nossa missão é proporcionar excelência em engenharia, entregando projetos inovadores e soluções sólidas que atendam às necessidades e expectativas de nossos clientes."
+            ></card-about>
+          </div>
+        </div>
+      </section>
+      <section class="w-full py-20">
+        <div
+          class="max-w-5xl mx-auto flex flex-col items-center justify-center gap-10"
+        >
+          <info-tag text="Nossos diferenciais"></info-tag>
+
+          <div
+            class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 relative mt-10"
+          >
+            <info-card
+              icon="/public/images/icons/sustainability.svg"
+              title="Sustentabilidade"
+              subtitle="Nossa política de valores são baseadas na construção de confiança e respeito a nossos clientes e colaboradores."
+            ></info-card>
+            <div
+              class="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-300 text-2xl"
+            >
+              <i class="fas fa-arrow-right"></i>
+            </div>
+            <info-card
+              icon="/public/images/icons/policies.svg"
+              title="Políticas"
+              subtitle="Nossa política de valores são baseadas na construção de confiança e respeito a nossos clientes e colaboradores."
+            ></info-card>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full h-[60vh] bg-cover bg-center flex flex-col items-center justify-center text-center px-6 mt-[6%]"
+        style="background-image: url('/public/images/svg/about/banner.svg')"
+      >
+        <h2
+          class="text-white text-xl md:text-3xl font-bold max-w-6xl mb-10 leading-relaxed"
+        >
+          Com Sede na Avenida Paulista, contamos com um espaço físico
+          estruturado e robusto para atender nossos clientes da melhor forma!
+        </h2>
+
+        <button-gradient text="CONTATO"></button-gradient>
       </section>
     </header-and-footer>
 

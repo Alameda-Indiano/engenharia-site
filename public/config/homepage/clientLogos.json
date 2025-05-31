@@ -1,14 +1,14 @@
 [
-	"public/images/png/clients/cocacola.png",
-	"public/images/svg/home/clients/kaefer.svg",
-	"public/images/svg/home/clients/mercedez.svg",
-	"public/images/svg/home/clients/oboticario.svg",
-	"public/images/svg/home/clients/vulkan.svg",
-	"public/images/png/clients/bancodobrasil.png",
-	"public/images/png/clients/bbp.png",
-	"public/images/svg/home/clients/bionovis.svg",
-	"public/images/png/clients/copel.png",
-	"public/images/png/clients/royalFic.jpeg",
-	"public/images/png/clients/wise.png",
-	"public/images/png/clients/yoshii.png"
+  "public/images/png/clients/cocacola.png",
+  "public/images/png/clients/kaefer.png",
+  "public/images/png/clients/mercedez.png",
+  "public/images/png/clients/oboticario.png",
+  "public/images/png/clients/vulkan.png",
+  "public/images/png/clients/bancodobrasil.png",
+  "public/images/png/clients/bbp.png",
+  "public/images/png/clients/bionovis.png",
+  "public/images/png/clients/copel.png",
+  "public/images/png/clients/royalFic.png",
+  "public/images/png/clients/wise.png",
+  "public/images/png/clients/yoshii.png"
 ]
