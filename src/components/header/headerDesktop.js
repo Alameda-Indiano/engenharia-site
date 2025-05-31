@@ -1,18 +1,18 @@
 export class HeaderCustom extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
       <header class="w-full py-2 px-14 bg-header-primary hidden lg:flex justify-between items-center fixed top-0 left-0 z-50">
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
-            src="public/images/png/logo.png"
+            src="/public/images/png/logo.png"
             width="70"
             alt="Logotipo Capella Engenharia"
           />
         </div>
 
         <div class="flex items-center space-x-8">
-          <ul class="flex gap-14 items-center font-semibold text-sm text-text-primary">
+          <ul class="flex gap-14 items-center font-[600] text-sm text-text-primary">
             <li class="relative group">
               <a href="/index.html" class="transition-colors duration-300 group-hover:text-text-details">Home</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
@@ -34,7 +34,7 @@ export class HeaderCustom extends HTMLElement {
                 class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3"
               >
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="../../pages/solutions/industrial/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/solutions/civil/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
                     Obra Industrial Civil
                   </a>
                 </li>
@@ -70,7 +70,7 @@ export class HeaderCustom extends HTMLElement {
           >
             <img
               class="w-6 h-6"
-              src="public/images/icons/linkedin.svg"
+              src="/public/images/icons/linkedin.svg"
               alt="LinkedIn"
             />
           </a>
@@ -78,35 +78,35 @@ export class HeaderCustom extends HTMLElement {
       </header>
     `;
 
-		const liSolucoes = this.querySelector("#solucoes-menu");
-		const submenu = this.querySelector("#sub-menu-solucoes");
-		liSolucoes.addEventListener("mouseenter", () => {
-			submenu.classList.remove("hidden");
-			submenu.classList.add("flex");
-		});
-		liSolucoes.addEventListener("mouseleave", () => {
-			setTimeout(() => {
-				if (!liSolucoes.matches(":hover") && !submenu.matches(":hover")) {
-					submenu.classList.add("hidden");
-					submenu.classList.remove("flex");
-				}
-			}, 100);
-		});
-		submenu.addEventListener("mouseenter", () => {
-			submenu.classList.remove("hidden");
-			submenu.classList.add("flex");
-		});
-		submenu.addEventListener("mouseleave", () => {
-			submenu.classList.add("hidden");
-			submenu.classList.remove("flex");
-		});
+    const liSolucoes = this.querySelector("#solucoes-menu");
+    const submenu = this.querySelector("#sub-menu-solucoes");
+    liSolucoes.addEventListener("mouseenter", () => {
+      submenu.classList.remove("hidden");
+      submenu.classList.add("flex");
+    });
+    liSolucoes.addEventListener("mouseleave", () => {
+      setTimeout(() => {
+        if (!liSolucoes.matches(":hover") && !submenu.matches(":hover")) {
+          submenu.classList.add("hidden");
+          submenu.classList.remove("flex");
+        }
+      }, 100);
+    });
+    submenu.addEventListener("mouseenter", () => {
+      submenu.classList.remove("hidden");
+      submenu.classList.add("flex");
+    });
+    submenu.addEventListener("mouseleave", () => {
+      submenu.classList.add("hidden");
+      submenu.classList.remove("flex");
+    });
 
-		const logoLink = this.querySelector("#logo-link");
-		logoLink.addEventListener("click", (e) => {
-			e.preventDefault();
-			window.location.reload();
-		});
-	}
+    const logoLink = this.querySelector("#logo-link");
+    logoLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.location.reload();
+    });
+  }
 }
 
 customElements.define("header-desktop", HeaderCustom);
