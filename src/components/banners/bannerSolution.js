@@ -1,6 +1,6 @@
 export class BannerSection extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
 
         <Section class="pt-36">
       <div class="w-full h-16 bg-background"></div>
@@ -26,7 +26,7 @@ export class BannerSection extends HTMLElement {
       </section>
          
     `;
-  }
+	}
 }
 
 customElements.define("banner-section", BannerSection);

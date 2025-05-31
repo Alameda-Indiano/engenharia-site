@@ -1,6 +1,6 @@
 export class FooterCustom extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `<footer class="w-full min-h-[300px] h-auto bg-secondary flex text-text-secondary items-center justify-evenly flex-wrap px-6 py-10">
+	connectedCallback() {
+		this.innerHTML = `<footer class="w-full min-h-[300px] h-auto bg-secondary flex text-text-secondary items-center justify-evenly flex-wrap px-6 py-10">
   <div class="h-auto w-[200px] flex gap-4 flex-wrap">
     <h2 class="font-bold text-base">Capella Engenharia</h2>
     <div class="flex gap-10 font-light">
@@ -126,7 +126,7 @@ export class FooterCustom extends HTMLElement {
       </li>
     </ul>
       <a href="#" class="transition-transform duration-300 hover:scale-110">
-        <img src="/images/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
+        <img src="public/images/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
       </a>
     </div>
   </div>
@@ -136,7 +136,7 @@ export class FooterCustom extends HTMLElement {
   Copyright © 2025 Capella Engenharia, All rights reserved.
 </div>
     `;
-  }
+	}
 }
 
 customElements.define("custom-footer", FooterCustom);

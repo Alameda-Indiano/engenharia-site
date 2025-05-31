@@ -1,20 +1,20 @@
 export class BlogCardGrid extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `<p class='text-center'>Carregando conteúdos...</p>`;
+	async connectedCallback() {
+		this.innerHTML = `<p class='text-center'>Carregando conteúdos...</p>`;
 
-    try {
-      const res = await fetch("/config/homepage/blogSection.json");
-      const blogCards = await res.json();
+		try {
+			const res = await fetch("public/config/homepage/blogSection.json");
+			const blogCards = await res.json();
 
-      if (!Array.isArray(blogCards)) {
-        console.warn("blogCards não é um array:", blogCards);
-        this.innerHTML = `<p class='text-center text-red-500'>Erro ao carregar os dados dos cards.</p>`;
-        return;
-      }
+			if (!Array.isArray(blogCards)) {
+				console.warn("blogCards não é um array:", blogCards);
+				this.innerHTML = `<p class='text-center text-red-500'>Erro ao carregar os dados dos cards.</p>`;
+				return;
+			}
 
-      const cards = blogCards
-        .map(
-          (item) => `
+			const cards = blogCards
+				.map(
+					(item) => `
             <a href="../../pages/blog/index.html" class="block cursor-pointer w-full">
               <div class="relative group overflow-hidden bg-white" style="aspect-ratio: 4 / 3;">
                 <img
@@ -44,21 +44,21 @@ export class BlogCardGrid extends HTMLElement {
               </div>
             </a>
           `
-        )
-        .join("");
+				)
+				.join("");
 
-      this.innerHTML = `
+			this.innerHTML = `
         <section class="w-full m-0 p-0">
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0">
             ${cards}
           </div>
         </section>
       `;
-    } catch (err) {
-      console.error("Erro ao carregar blogSection.json:", err);
-      this.innerHTML = `<p class='text-center text-red-500'>Erro ao carregar os conteúdos.</p>`;
-    }
-  }
+		} catch (err) {
+			console.error("Erro ao carregar blogSection.json:", err);
+			this.innerHTML = `<p class='text-center text-red-500'>Erro ao carregar os conteúdos.</p>`;
+		}
+	}
 }
 
 customElements.define("blog-card-grid", BlogCardGrid);

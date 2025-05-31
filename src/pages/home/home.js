@@ -1,10 +1,11 @@
-import "/src/main.js";
-import "/src/components/cards/gridBlog.js";
-import "/src/components/cards/cardStaff.js";
-import "/src/components/sliders/clientsSlider.js";
-import "/src/components/buttons/buttomGradient.js";
-import "/src/components/sliders/circleSlider.js";
-import "/src/components/buttons/buttomWhite.js";
-import "/src/components/sliders/circles.js";
-import "/src/components/texts/infoTag.js";
-import "/src/layouts/headerLayout/layout.js";
+import "../../components/buttons/buttomGradient.js";
+import "../../components/buttons/buttomWhite.js";
+import "../../components/cards/cardStaff.js";
+import "../../components/cards/gridBlog.js";
+import "../../components/sliders/circles.js";
+import "../../components/sliders/circleSlider.js";
+import "../../components/sliders/clientsSlider.js";
+import "../../components/texts/infoTag.js";
+import "../../layouts/headerLayout/layout.js";
+// import "../../main.js";
+

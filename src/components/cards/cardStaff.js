@@ -1,15 +1,15 @@
 export class StaffSection extends HTMLElement {
-  async connectedCallback() {
-    this.innerHTML = `<p class="text-center">Carregando equipe...</p>`;
+	async connectedCallback() {
+		this.innerHTML = `<p class="text-center">Carregando equipe...</p>`;
 
-    try {
-      const res = await fetch("/config/homepage/staff.json");
-      const staffConfig = await res.json();
-      if (!Array.isArray(staffConfig)) throw new Error("Dados inválidos");
+		try {
+			const res = await fetch("public/config/homepage/staff.json");
+			const staffConfig = await res.json();
+			if (!Array.isArray(staffConfig)) throw new Error("Dados inválidos");
 
-      const cardsHtml = staffConfig
-        .map(
-          ({ name, role, imageUrl, linkedinUrl, summary }) => `
+			const cardsHtml = staffConfig
+				.map(
+					({ name, role, imageUrl, linkedinUrl, summary }) => `
   <div class="group [perspective:1000px] w-full max-w-[280px] p-4 cursor-pointer">
     <div
       class="relative w-full h-[360px] transition-transform duration-500
@@ -42,16 +42,16 @@ export class StaffSection extends HTMLElement {
           aria-label="LinkedIn"
           class="transition-transform duration-200 hover:scale-110"
         >
-          <img width="22" src="/images/icons/linkedin.svg" alt="LinkedIn"/>
+          <img width="22" src="public/images/icons/linkedin.svg" alt="LinkedIn"/>
         </a>
       </div>
     </div>
   </div>
   `
-        )
-        .join("");
+				)
+				.join("");
 
-      this.innerHTML = `
+			this.innerHTML = `
   <section class="w-full bg-shadow-default py-[15%] lg:py-[10%]">
     <div class="max-w-7xl mx-auto px-4 text-center">
       <p class="text-sm text-gray-500 uppercase mb-2 font-semibold tracking-wide">
@@ -69,10 +69,10 @@ export class StaffSection extends HTMLElement {
     </div>
   </section>
   `;
-    } catch {
-      this.innerHTML = `<p class="text-center text-red-500">Erro ao carregar equipe.</p>`;
-    }
-  }
+		} catch {
+			this.innerHTML = `<p class="text-center text-red-500">Erro ao carregar equipe.</p>`;
+		}
+	}
 }
 
 customElements.define("team-member-card", StaffSection);

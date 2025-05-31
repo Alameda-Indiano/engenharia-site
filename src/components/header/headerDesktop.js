@@ -1,11 +1,11 @@
 export class HeaderCustom extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
       <header class="w-full py-2 px-14 bg-header-primary hidden lg:flex justify-between items-center fixed top-0 left-0 z-50">
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
-            src="/images/png/logo.png"
+            src="public/images/png/logo.png"
             width="70"
             alt="Logotipo Capella Engenharia"
           />
@@ -70,7 +70,7 @@ export class HeaderCustom extends HTMLElement {
           >
             <img
               class="w-6 h-6"
-              src="/images/icons/linkedin.svg"
+              src="public/images/icons/linkedin.svg"
               alt="LinkedIn"
             />
           </a>
@@ -78,35 +78,35 @@ export class HeaderCustom extends HTMLElement {
       </header>
     `;
 
-    const liSolucoes = this.querySelector("#solucoes-menu");
-    const submenu = this.querySelector("#sub-menu-solucoes");
-    liSolucoes.addEventListener("mouseenter", () => {
-      submenu.classList.remove("hidden");
-      submenu.classList.add("flex");
-    });
-    liSolucoes.addEventListener("mouseleave", () => {
-      setTimeout(() => {
-        if (!liSolucoes.matches(":hover") && !submenu.matches(":hover")) {
-          submenu.classList.add("hidden");
-          submenu.classList.remove("flex");
-        }
-      }, 100);
-    });
-    submenu.addEventListener("mouseenter", () => {
-      submenu.classList.remove("hidden");
-      submenu.classList.add("flex");
-    });
-    submenu.addEventListener("mouseleave", () => {
-      submenu.classList.add("hidden");
-      submenu.classList.remove("flex");
-    });
+		const liSolucoes = this.querySelector("#solucoes-menu");
+		const submenu = this.querySelector("#sub-menu-solucoes");
+		liSolucoes.addEventListener("mouseenter", () => {
+			submenu.classList.remove("hidden");
+			submenu.classList.add("flex");
+		});
+		liSolucoes.addEventListener("mouseleave", () => {
+			setTimeout(() => {
+				if (!liSolucoes.matches(":hover") && !submenu.matches(":hover")) {
+					submenu.classList.add("hidden");
+					submenu.classList.remove("flex");
+				}
+			}, 100);
+		});
+		submenu.addEventListener("mouseenter", () => {
+			submenu.classList.remove("hidden");
+			submenu.classList.add("flex");
+		});
+		submenu.addEventListener("mouseleave", () => {
+			submenu.classList.add("hidden");
+			submenu.classList.remove("flex");
+		});
 
-    const logoLink = this.querySelector("#logo-link");
-    logoLink.addEventListener("click", (e) => {
-      e.preventDefault();
-      window.location.reload();
-    });
-  }
+		const logoLink = this.querySelector("#logo-link");
+		logoLink.addEventListener("click", (e) => {
+			e.preventDefault();
+			window.location.reload();
+		});
+	}
 }
 
 customElements.define("header-desktop", HeaderCustom);

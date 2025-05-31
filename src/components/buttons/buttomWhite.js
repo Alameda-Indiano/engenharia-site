@@ -1,8 +1,8 @@
 export class ButtonWhite extends HTMLElement {
-  connectedCallback() {
-    const text = this.getAttribute("text") || "";
+	connectedCallback() {
+		const text = this.getAttribute("text") || "";
 
-    this.innerHTML = `
+		this.innerHTML = `
       <div class="flex justify-center">
         <button
           class="bg-transparent
@@ -18,7 +18,7 @@ export class ButtonWhite extends HTMLElement {
         </button>
       </div>
     `;
-  }
+	}
 }
 
 customElements.define("button-white", ButtonWhite);

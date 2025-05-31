@@ -1,13 +1,12 @@
-// src/components/header/headerMobile.js
 export class HeaderMobile extends HTMLElement {
-  connectedCallback() {
-    this.className = "w-full fixed top-0 left-0 z-50 lg:hidden";
+	connectedCallback() {
+		this.className = "w-full fixed top-0 left-0 z-50 lg:hidden";
 
-    this.innerHTML = `
+		this.innerHTML = `
       <div class="w-full bg-header-primary text-text-primary px-6 py-2 min-h-16">
         <div class="max-w-screen-xl mx-auto flex justify-between items-center">
           <img
-            src="/images/png/logo.png"
+            src="public/images/png/logo.png"
             width="70"
             alt="Logo Capella"
           />
@@ -46,34 +45,34 @@ export class HeaderMobile extends HTMLElement {
       </ul>
     `;
 
-    const btn = this.querySelector("#mobile-menu-button");
-    const menu = this.querySelector("#mobile-menu");
-    const icon = this.querySelector("#menu-icon");
-    const solucoesToggle = this.querySelector("#solucoes-toggle");
-    const submenu = this.querySelector("#submenu-solucoes");
-    const arrow = this.querySelector("#solucoes-icon");
+		const btn = this.querySelector("#mobile-menu-button");
+		const menu = this.querySelector("#mobile-menu");
+		const icon = this.querySelector("#menu-icon");
+		const solucoesToggle = this.querySelector("#solucoes-toggle");
+		const submenu = this.querySelector("#submenu-solucoes");
+		const arrow = this.querySelector("#solucoes-icon");
 
-    btn.addEventListener("click", () => {
-      const isOpen = !menu.classList.contains("hidden");
+		btn.addEventListener("click", () => {
+			const isOpen = !menu.classList.contains("hidden");
 
-      if (isOpen) {
-        menu.classList.add("opacity-0", "translate-y-[-10px]");
-        setTimeout(() => menu.classList.add("hidden"), 300);
-        icon.classList.replace("fa-times", "fa-bars");
-      } else {
-        menu.classList.remove("hidden");
-        setTimeout(() => {
-          menu.classList.remove("opacity-0", "translate-y-[-10px]");
-        }, 10);
-        icon.classList.replace("fa-bars", "fa-times");
-      }
-    });
+			if (isOpen) {
+				menu.classList.add("opacity-0", "translate-y-[-10px]");
+				setTimeout(() => menu.classList.add("hidden"), 300);
+				icon.classList.replace("fa-times", "fa-bars");
+			} else {
+				menu.classList.remove("hidden");
+				setTimeout(() => {
+					menu.classList.remove("opacity-0", "translate-y-[-10px]");
+				}, 10);
+				icon.classList.replace("fa-bars", "fa-times");
+			}
+		});
 
-    solucoesToggle?.addEventListener("click", () => {
-      submenu?.classList.toggle("hidden");
-      arrow?.classList.toggle("rotate-180");
-    });
-  }
+		solucoesToggle?.addEventListener("click", () => {
+			submenu?.classList.toggle("hidden");
+			arrow?.classList.toggle("rotate-180");
+		});
+	}
 }
 
 customElements.define("header-mobile", HeaderMobile);
