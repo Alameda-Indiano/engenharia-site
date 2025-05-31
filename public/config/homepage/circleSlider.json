@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "fa-warehouse",
+    "label": "Galpões Industriais"
+  },
+  {
+    "icon": "fa-building",
+    "label": "Espaços Corporativos"
+  },
+  {
+    "icon": "fa-border-all",
+    "label": "Pisos Intertravado"
+  },
+  {
+    "icon": "fa-bolt",
+    "label": "Elétrica Baixa Tensão"
+  },
+  {
+    "icon": "fa-water",
+    "label": "Hidráulica e Drenagem"
+  },
+  {
+    "icon": "fa-network-wired",
+    "label": "Rede de Dutora"
+  },
+  {
+    "icon": "fa-drafting-compass",
+    "label": "Concreto Armado"
+  },
+  {
+    "icon": "fa-hard-hat",
+    "label": "Estruturas Metálicas"
+  },
+  {
+    "icon": "fa-plug",
+    "label": "Instalações Elétricas"
+  }
+]

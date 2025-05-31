@@ -1,0 +1,27 @@
+[
+  {
+    "imageUrl": "/images/svg/home/staff/staff1.svg",
+    "name": "Nome Sobrenome",
+    "role": "CMO",
+    "linkedinUrl": "https://linkedin.com"
+  },
+  {
+    "imageUrl": "/images/svg/home/staff/staff2.svg",
+    "name": "Nome Sobrenome",
+    "role": "CMO",
+    "summary": "Engenheira Civil em instalações prediais e obras complexas, especialista em planejamento e liderança para garantir qualidade e prazos",
+    "linkedinUrl": "https://linkedin.com"
+  },
+  {
+    "imageUrl": "/images/svg/home/staff/staff3.svg",
+    "name": "Nome Sobrenome",
+    "role": "CMO",
+    "linkedinUrl": "https://linkedin.com"
+  },
+  {
+    "imageUrl": "/images/svg/home/staff/staff4.svg",
+    "name": "Nome Sobrenome",
+    "role": "CMO",
+    "linkedinUrl": "https://linkedin.com"
+  }
+]

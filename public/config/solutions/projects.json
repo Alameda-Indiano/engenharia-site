@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Projeto de Estrutura em Concreto Armado",
+    "description": "Consiste na elaboração de cálculos e desenhos técnicos que definem a fundação, pilares, vigas e lajes de uma edificação, garantindo segurança, estabilidade e durabilidade à estrutura."
+  },
+  {
+    "title": "Projeto de Estrutura e Coberturas Metálicas",
+    "description": "Define o dimensionamento e a montagem de estruturas metálicas utilizadas em galpões, pavilhões e coberturas. É uma opção versátil, resistente e com montagem rápida."
+  },
+  {
+    "title": "Projeto de Instalações Elétricas",
+    "description": "Abrange o planejamento completo dos circuitos elétricos, distribuição de cargas, pontos de energia e iluminação, assegurando eficiência energética e conformidade com as normas técnicas."
+  },
+  {
+    "title": "Projeto de Instalações Hidráulicas",
+    "description": "Planeja o abastecimento de água, esgoto sanitário e drenagem pluvial, considerando o consumo, a pressão da rede e a melhor disposição dos sistemas para uso racional da água."
+  },
+  {
+    "title": "Projeto de Automação",
+    "description": "Desenvolve sistemas inteligentes para controle de processos industriais, máquinas e utilidades, aumentando a eficiência operacional e permitindo monitoramento remoto."
+  },
+  {
+    "title": "Projeto de Prevenção Contra Incêndio (PPCI)",
+    "description": "Inclui o dimensionamento e posicionamento de sistemas de combate a incêndio, como sprinklers, hidrantes e extintores, conforme as exigências dos corpos de bombeiros e normas de segurança."
+  }
+]
