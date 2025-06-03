@@ -106,22 +106,21 @@ export class FooterCustom extends HTMLElement {
       <li>
         <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            email
+            Contato.adm@capellaeng.com.br
           </span>
         </a>
       </li>
       <li>
         <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-           telefone
+           (11) 9 1728-4800
           </span>
         </a>
       </li>
       <li>
         <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-           localização
-          </span>
+           Avenida Paulista, 1471 | Conj. 511 | Sala 02          </span>
         </a>
       </li>
     </ul>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Capella Engenharia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-...=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../../public/styles/tailwind.css" />
+  </head>
+  <body>
+    <header-and-footer>
+      <section>
+        <div
+          class="w-full h-[90vh] bg-[url('../../../public/images/svg/contact/bgContact.svg')] bg-center bg-cover flex flex-col items-center justify-center text-center px-4"
+        >
+          <h1 class="text-white text-4xl font-bold">
+            Quer tirar seu projeto do papel?
+          </h1>
+          <h2 class="text-text-secondary font-medium mt-4 max-w-xl">
+            Fale conosco e descubra como levar sua obra ao próximo nível com
+            soluções personalizadas e eficientes.
+          </h2>
+        </div>
+      </section>
+      <section class="py-16 flex flex-col items-center justify-center">
+        <info-tag text="Atendimento"></info-tag>
+        <div
+          class="flex flex-wrap justify-center items-center gap-16 mt-8 px-4 py-24"
+        >
+          <card-contact
+            icon="/public/images/icons/local.svg"
+            title="Endereço"
+            text="Avenida Paulista, 1471 | Conj. 511 | Sala
+            02 CP 22637 | Bela Vista | CEP: 01311-927 
+            | São Paulo - SP"
+          ></card-contact>
+          <card-contact
+            icon="/public/images/icons/email.svg"
+            title="Email"
+            text="Contato.adm@capellaeng.com.br"
+          ></card-contact>
+          <card-contact
+            icon="/public/images/icons/phone.svg"
+            title="Telefone"
+            text="(11) 9 1728-4800"
+          ></card-contact>
+        </div>
+      </section>
+      <section class="w-full bg-secondary min-h-20 py-24">
+        <div class="container mx-auto">
+          <h2 class="text-white text-3xl font-bold mb-1">
+            Fale com um consultor:
+          </h2>
+          <p class="text-text-details mb-8">Capella Engenharia</p>
+
+          <div
+            class="flex flex-col md:flex-row min-h-[700px] gap-8 items-stretch"
+          >
+            <div class="w-full md:w-1/2 overflow-hidden rounded-lg">
+              <img
+                src="/public/images/svg/contact/womanContact.svg"
+                alt="Consultora Capella"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+
+            <div
+              class="w-full md:w-1/2 bg-white rounded-lg p-8 shadow-lg flex flex-col justify-center"
+            >
+              <h3 class="text-text-details text-2xl font-semibold mb-10">
+                Construa com quem inova a cada m²
+              </h3>
+              <contact-form></contact-form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="w-full bg-shadow-default h-28 mb-20"></div>
+    </header-and-footer>
+    <script type="module" src="./contact.js"></script>
+  </body>
+</html>

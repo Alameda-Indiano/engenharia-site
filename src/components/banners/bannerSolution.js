@@ -1,6 +1,6 @@
 export class BannerSection extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
 
         <Section class="pt-36">
       <div class="w-full h-16 bg-background"></div>
@@ -20,13 +20,13 @@ export class BannerSection extends HTMLElement {
             assegurando a segurança e bem-estar de todos os envolvidos,
             enquanto entregamos obras com a mais alta qualidade.
           </p>
-          <button-white text="Entre em Contato!"></button-white>
+          <button-white href="/src/pages/contact/index.html" text="Entre em Contato!"></button-white>
         </div>
       </div>
       </section>
          
     `;
-	}
+  }
 }
 
 customElements.define("banner-section", BannerSection);

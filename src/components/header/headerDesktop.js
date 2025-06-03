@@ -59,7 +59,10 @@ export class HeaderCustom extends HTMLElement {
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li class="relative group cursor-pointer">
-              <a href="/src/pages/corporation/index.html" class="transition-colors duration-300 group-hover:text-text-details">Governança Corporativa</a>
+            <div class="flex items-center gap-2 transition-colors duration-300 group-hover:text-text-details">
+                Governança Corporativa
+                <i class="fas fa-angle-down transition duration-300"></i>
+              </div>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>

@@ -6,7 +6,6 @@ class GoogleMapEmbed extends HTMLElement {
 
     this.innerHTML = `
         <div class="relative w-full h-[500px] group">
-          <!-- Mapa -->
           <div id="map-wrapper" class="pointer-events-none w-full h-full relative z-0">
             <iframe
               src="${src}"
@@ -20,7 +19,6 @@ class GoogleMapEmbed extends HTMLElement {
             ></iframe>
           </div>
 
-          <!-- Overlay escuro com texto -->
           <div
             class="absolute inset-0 bg-black/50 flex items-center justify-center z-10 pointer-events-none group-hover:opacity-0 transition-opacity duration-300"
           >
