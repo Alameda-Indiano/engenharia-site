@@ -1,7 +1,7 @@
 export class HeaderCustom extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <header class="w-full py-2 px-14 bg-header-primary hidden lg:flex justify-between items-center fixed top-0 left-0 z-50">
+      <header class="w-full py-2 px-14 bg-header-primary hidden lg:flex items-center fixed top-0 left-0 z-50">
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
@@ -10,17 +10,14 @@ export class HeaderCustom extends HTMLElement {
             alt="Logotipo Capella Engenharia"
           />
         </div>
-
-        <div class="flex items-center space-x-8">
-          <ul class="flex gap-14 items-center font-[600] text-sm text-text-primary">
+        <nav class="flex-1">
+          <ul class="flex justify-center gap-14 items-center font-[600] text-sm text-text-primary">
             <li class="relative group">
               <a href="/index.html" class="transition-colors duration-300 group-hover:text-text-details">Home</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li class="relative group cursor-pointer">
-              <a href="/src/pages/about/index.html" class="transition-colors duration-300 group-hover:text-text-details">
-                Sobre
-              </a>
+              <a href="/src/pages/about/index.html" class="transition-colors duration-300 group-hover:text-text-details">Sobre</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li id="solucoes-menu" class="relative group cursor-pointer">
@@ -29,10 +26,7 @@ export class HeaderCustom extends HTMLElement {
                 <i class="fas fa-angle-down transition duration-300"></i>
               </div>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
-              <ul
-                id="sub-menu-solucoes"
-                class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3"
-              >
+              <ul id="sub-menu-solucoes" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3">
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/civil/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
                     Obra Industrial Civil
@@ -50,6 +44,25 @@ export class HeaderCustom extends HTMLElement {
                 </li>
               </ul>
             </li>
+            <li id="governanca-menu" class="relative group cursor-pointer">
+              <div class="flex items-center gap-2 transition-colors duration-300 group-hover:text-text-details">
+                Governança Corporativa
+                <i class="fas fa-angle-down transition duration-300"></i>
+              </div>
+              <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
+              <ul id="sub-menu-governanca" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3">
+                <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
+                  <a href="/src/pages/blog/posts/index.html?id=0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                    Política de Privacidade - LGPD
+                  </a>
+                </li>
+                <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
+                  <a href="/src/pages/blog/posts/index.html?id=1" class="hover:text-text-details transition-colors duration-300 font-medium">
+                    Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
+                  </a>
+                </li>
+              </ul>
+            </li>
             <li class="relative group cursor-pointer">
               <a href="/src/pages/blog/index.html" class="transition-colors duration-300 group-hover:text-text-details">Blog</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
@@ -58,50 +71,58 @@ export class HeaderCustom extends HTMLElement {
               <a href="/src/pages/contact/index.html" class="transition-colors duration-300 group-hover:text-text-details">Contato</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
-            <li class="relative group cursor-pointer">
-            <div class="flex items-center gap-2 transition-colors duration-300 group-hover:text-text-details">
-                Governança Corporativa
-                <i class="fas fa-angle-down transition duration-300"></i>
-              </div>
-              <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
-            </li>
           </ul>
-
-          <a
-            href="#"
-            class="cursor-pointer transition-transform duration-300 hover:scale-110"
-          >
-            <img
-              class="w-6 h-6"
-              src="/public/images/icons/linkedin.svg"
-              alt="LinkedIn"
-            />
+        </nav>
+        <div class="flex items-center gap-4">
+          <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
+            <img class="w-6 h-6" src="/public/images/icons/linkedin.svg" alt="LinkedIn"/>
+          </a>
+          <a href="https://www.instagram.com/capella.eng?utm_source=qr&igsh=ZWd2ZXVmaGVwMzl6" class="transition-transform duration-300 hover:scale-110">
+            <img class="w-6 h-6" src="/public/images/icons/instagram.svg" alt="Instagram"/>
           </a>
         </div>
       </header>
     `;
 
     const liSolucoes = this.querySelector("#solucoes-menu");
-    const submenu = this.querySelector("#sub-menu-solucoes");
+    const submenuSolucoes = this.querySelector("#sub-menu-solucoes");
     liSolucoes.addEventListener("mouseenter", () => {
-      submenu.classList.remove("hidden");
-      submenu.classList.add("flex");
+      submenuSolucoes.classList.replace("hidden", "flex");
     });
     liSolucoes.addEventListener("mouseleave", () => {
       setTimeout(() => {
-        if (!liSolucoes.matches(":hover") && !submenu.matches(":hover")) {
-          submenu.classList.add("hidden");
-          submenu.classList.remove("flex");
+        if (
+          !liSolucoes.matches(":hover") &&
+          !submenuSolucoes.matches(":hover")
+        ) {
+          submenuSolucoes.classList.replace("flex", "hidden");
         }
       }, 100);
     });
-    submenu.addEventListener("mouseenter", () => {
-      submenu.classList.remove("hidden");
-      submenu.classList.add("flex");
+    submenuSolucoes.addEventListener("mouseenter", () => {
+      submenuSolucoes.classList.replace("hidden", "flex");
     });
-    submenu.addEventListener("mouseleave", () => {
-      submenu.classList.add("hidden");
-      submenu.classList.remove("flex");
+    submenuSolucoes.addEventListener("mouseleave", () => {
+      submenuSolucoes.classList.replace("flex", "hidden");
+    });
+
+    const liGov = this.querySelector("#governanca-menu");
+    const submenuGov = this.querySelector("#sub-menu-governanca");
+    liGov.addEventListener("mouseenter", () => {
+      submenuGov.classList.replace("hidden", "flex");
+    });
+    liGov.addEventListener("mouseleave", () => {
+      setTimeout(() => {
+        if (!liGov.matches(":hover") && !submenuGov.matches(":hover")) {
+          submenuGov.classList.replace("flex", "hidden");
+        }
+      }, 100);
+    });
+    submenuGov.addEventListener("mouseenter", () => {
+      submenuGov.classList.replace("hidden", "flex");
+    });
+    submenuGov.addEventListener("mouseleave", () => {
+      submenuGov.classList.replace("flex", "hidden");
     });
 
     const logoLink = this.querySelector("#logo-link");

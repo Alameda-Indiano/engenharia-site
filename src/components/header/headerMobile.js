@@ -17,16 +17,14 @@ export class HeaderMobile extends HTMLElement {
       </div>
 
       <ul id="mobile-menu"
-        class="hidden flex-col bg-secondary text-text-secondary px-6 py-6 font-semibold text-base absolute w-full top-full left-0 z-40 transition-all duration-300 ease-in-out opacity-0 translate-y-[-10px] space-y-2 shadow-lg">
-
+        class="hidden flex-col bg-secondary text-text-secondary px-6 py-6 font-semibold text-base absolute w-full top-full left-0 z-40 transition-all duration-300 ease-in-out opacity-0 -translate-y-2 space-y-2 shadow-lg">
         <li><a href="/index.html" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Home</a></li>
         <li><a href="/src/pages/about/index.html" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Sobre</a></li>
 
-        <li id="solucoes-toggle" class="py-2 px-2 cursor-pointer flex items-center justify-between hover:bg-shadow-secondary rounded transition-colors">
+        <li id="solucoes-toggle" class="py-2 px-2 flex items-center justify-between hover:bg-shadow-secondary rounded transition-colors cursor-pointer">
           <span>Soluções</span>
           <i id="solucoes-icon" class="fas fa-angle-down text-sm transition-transform duration-300"></i>
         </li>
-
         <ul id="submenu-solucoes" class="hidden flex-col pl-4 space-y-1">
           <li>
             <a href="/src/pages/solutions/civil/index.html" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Obra Industrial Civil</a>
@@ -39,7 +37,19 @@ export class HeaderMobile extends HTMLElement {
           </li>
         </ul>
 
-        <li><a href="/src/pages/corporation/index.html" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Governança Corporativa</a></li>
+        <li id="governanca-toggle" class="py-2 px-2 flex items-center justify-between hover:bg-shadow-secondary rounded transition-colors cursor-pointer">
+          <span>Governança Corporativa</span>
+          <i id="governanca-icon" class="fas fa-angle-down text-sm transition-transform duration-300"></i>
+        </li>
+        <ul id="submenu-governanca" class="hidden flex-col pl-4 space-y-1">
+          <li>
+            <a href="/src/pages/blog/posts/index.html?id=0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Política de Privacidade - LGPD</a>
+          </li>
+          <li>
+            <a href="/src/pages/blog/posts/index.html?id=1" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Relatório de Impacto à Proteção de Dados Pessoais (RIPD)</a>
+          </li>
+        </ul>
+
         <li><a href="/src/pages/blog/index.html" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Blog</a></li>
         <li><a href="/src/pages/contact/index.html" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Contato</a></li>
       </ul>
@@ -49,28 +59,35 @@ export class HeaderMobile extends HTMLElement {
     const menu = this.querySelector("#mobile-menu");
     const icon = this.querySelector("#menu-icon");
     const solucoesToggle = this.querySelector("#solucoes-toggle");
-    const submenu = this.querySelector("#submenu-solucoes");
-    const arrow = this.querySelector("#solucoes-icon");
+    const submenuSolucoes = this.querySelector("#submenu-solucoes");
+    const arrowSolucoes = this.querySelector("#solucoes-icon");
+    const governancaToggle = this.querySelector("#governanca-toggle");
+    const submenuGovernanca = this.querySelector("#submenu-governanca");
+    const arrowGovernanca = this.querySelector("#governanca-icon");
 
     btn.addEventListener("click", () => {
       const isOpen = !menu.classList.contains("hidden");
-
       if (isOpen) {
-        menu.classList.add("opacity-0", "translate-y-[-10px]");
+        menu.classList.add("opacity-0", "-translate-y-2");
         setTimeout(() => menu.classList.add("hidden"), 300);
         icon.classList.replace("fa-times", "fa-bars");
       } else {
         menu.classList.remove("hidden");
         setTimeout(() => {
-          menu.classList.remove("opacity-0", "translate-y-[-10px]");
+          menu.classList.remove("opacity-0", "-translate-y-2");
         }, 10);
         icon.classList.replace("fa-bars", "fa-times");
       }
     });
 
-    solucoesToggle?.addEventListener("click", () => {
-      submenu?.classList.toggle("hidden");
-      arrow?.classList.toggle("rotate-180");
+    solucoesToggle.addEventListener("click", () => {
+      submenuSolucoes.classList.toggle("hidden");
+      arrowSolucoes.classList.toggle("rotate-180");
+    });
+
+    governancaToggle.addEventListener("click", () => {
+      submenuGovernanca.classList.toggle("hidden");
+      arrowGovernanca.classList.toggle("rotate-180");
     });
   }
 }

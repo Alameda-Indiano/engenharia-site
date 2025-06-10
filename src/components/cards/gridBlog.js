@@ -73,9 +73,15 @@ export class BlogGrid extends HTMLElement {
       this.filteredPosts = this.posts.slice();
     } else {
       this.filteredPosts = this.posts.filter((item) => {
-        const emTitulo = item.title.toLowerCase().includes(termo);
-        const emConteudo = item.post.publication.toLowerCase().includes(termo);
-        return emTitulo || emConteudo;
+        const titleMatch = item.title.toLowerCase().includes(termo);
+
+        let rawPub = Array.isArray(item.post.publication)
+          ? item.post.publication.join(" ")
+          : item.post.publication;
+        rawPub = rawPub.replace(/<[^>]+>/g, "").toLowerCase();
+
+        const contentMatch = rawPub.includes(termo);
+        return titleMatch || contentMatch;
       });
     }
 
@@ -105,12 +111,20 @@ export class BlogGrid extends HTMLElement {
     const cardsHtml = pageItems
       .map((item, idxInSlice) => {
         const realIndex = start + idxInSlice;
+
+        let rawPub = Array.isArray(item.post.publication)
+          ? item.post.publication.join(" ")
+          : item.post.publication;
+        rawPub = rawPub.replace(/<[^>]+>/g, "").trim();
+        const snippet =
+          rawPub.length > 120 ? rawPub.slice(0, 120).trim() + "..." : rawPub;
+
         return `
           <div class="bg-white rounded-lg overflow-hidden shadow h-full flex flex-col w-full max-w-sm cursor-pointer">
             <div class="px-4 py-6">
-              <h3 class="text-text-medium text-lg font-bold leading-tight">${
-                item.title
-              }</h3>
+              <h3 class="text-text-medium text-lg font-bold leading-tight">
+                ${item.title}
+              </h3>
             </div>
             <div class="w-full h-48 overflow-hidden">
               <img
@@ -121,14 +135,12 @@ export class BlogGrid extends HTMLElement {
             </div>
             <div class="px-4 py-4 flex-1 flex flex-col">
               <p class="text-gray-600 text-sm flex-1 mb-4">
-                ${
-                  item.post.publication.length > 120
-                    ? item.post.publication.slice(0, 120) + "..."
-                    : item.post.publication
-                }
+                ${snippet}
               </p>
-              <a href="/src/pages/blog/posts/index.html?id=${realIndex}"
-                 class="mt-auto text-text-details font-medium">
+              <a
+                href="/src/pages/blog/posts/index.html?id=${realIndex}"
+                class="mt-auto text-text-details font-medium"
+              >
                 Saiba Mais
               </a>
             </div>

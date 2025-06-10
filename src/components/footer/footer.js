@@ -124,7 +124,7 @@ export class FooterCustom extends HTMLElement {
         </a>
       </li>
     </ul>
-      <a href="#" class="transition-transform duration-300 hover:scale-110">
+      <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
         <img src="/public/images/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
       </a>
     </div>
