@@ -1,27 +1,27 @@
 [
-  {
-    "imageUrl": "public/images/svg/home/staff/staff1.svg",
-    "name": "Eng. Tafael Bueno",
-    "role": "CEO",
-    "linkedinUrl": "https://linkedin.com"
-  },
-  {
-    "imageUrl": "public/images/svg/home/staff/staff2.svg",
-    "name": "Engª. Jéssica Dias",
-    "role": "Planejamento e Orçamento",
-    "summary": "Engenheira Civil em instalações prediais e obras complexas, especialista em planejamento e liderança para garantir qualidade e prazos",
-    "linkedinUrl": "https://linkedin.com"
-  },
-  {
-    "imageUrl": "public/images/svg/home/staff/staff3.svg",
-    "name": "Reginaldo Batista",
-    "role": "Gestão de Projetos e Processos ",
-    "linkedinUrl": "https://linkedin.com"
-  },
-  {
-    "imageUrl": "public/images/svg/home/staff/staff4.svg",
-    "name": " Eng. Fabio Avelino",
-    "role": "Engenharia de Segurança",
-    "linkedinUrl": "https://linkedin.com"
-  }
+	{
+		"imageUrl": "public/images/svg/home/staff/staff1.svg?v=2.0.0",
+		"name": "Eng. Tafael Bueno",
+		"role": "CEO",
+		"linkedinUrl": "https://linkedin.com"
+	},
+	{
+		"imageUrl": "public/images/svg/home/staff/staff2.svg?v=2.0.0",
+		"name": "Engª. Jéssica Dias",
+		"role": "Planejamento e Orçamento",
+		"summary": "Engenheira Civil em instalações prediais e obras complexas, especialista em planejamento e liderança para garantir qualidade e prazos",
+		"linkedinUrl": "https://linkedin.com"
+	},
+	{
+		"imageUrl": "public/images/svg/home/staff/staff3.svg?v=2.0.0",
+		"name": "Reginaldo Batista",
+		"role": "Gestão de Projetos e Processos ",
+		"linkedinUrl": "https://linkedin.com"
+	},
+	{
+		"imageUrl": "public/images/svg/home/staff/staff4.svg?v=2.0.0",
+		"name": " Eng. Fabio Avelino",
+		"role": "Engenharia de Segurança",
+		"linkedinUrl": "https://linkedin.com"
+	}
 ]

@@ -1,98 +1,98 @@
 [
-  {
-    "image": "/public/images/svg/home/bloghome/policies.svg",
-    "title": "Política de Privacidade - LGPD",
-    "post": {
-      "date": "07/06/2025",
-      "publication": [
-        "A Capella Engenharia é comprometida com a privacidade e a proteção dos dados pessoais de seus clientes, parceiros e colaboradores, e apresenta sua Política de Privacidade em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).",
-        "<strong>1. CONTROLADOR DE DADOS</strong>\nA Capella Engenharia, CNPJ 47.699.067/0001-20, localizada na Avenida Paulista, 1471 – Conj. 511, Sala 02, CP22637 – Bela Vista – CEP: 01311-927 – São Paulo, atua como Controladora dos dados pessoais tratados em suas atividades.",
-        "<strong>2. ENCARREGADO DE PROTEÇÃO DE DADOS (DPO)</strong>\nO Encarregado de Proteção de Dados é o Sr. Reginaldo Gama Batista, que pode ser contatado pelo e-mail <strong>reginaldo.batista@capelleng.com.br</strong>.",
-        "<strong>3. DADOS COLETADOS</strong>\n- Nome completo\n- Cargo ou função\n- Empresa de atuação\n- Dados de contato (telefone, e-mail)\n- Informações para elaboração de orçamentos e propostas técnicas\n- Informações sobre a área responsável na empresa cliente\n- Demais informações fornecidas voluntariamente durante o relacionamento comercial",
-        "<strong>4. FINALIDADE DO TRATAMENTO DE DADOS</strong>\n- Elaboração de propostas comerciais e orçamentos\n- Contato com responsáveis técnicos e administrativos\n- Formalização e execução de contratos\n- Cumprimento de obrigações legais e regulatórias\n- Gestão de relacionamento comercial e pós-venda\n- Melhoria dos processos internos de planejamento e execução de serviços de engenharia\n- Atendimento a auditorias e órgãos fiscalizadores",
-        "<strong>5. COMPARTILHAMENTO DE DADOS</strong>\n- Fornecedores e prestadores de serviços administrativos, financeiros e contábeis\n- Parceiros comerciais envolvidos na execução dos contratos\n- Órgãos públicos, autoridades regulatórias, fiscais e judiciais\n- Empresas de tecnologia para armazenamento e proteção de dados",
-        "<strong>5.1. OBRIGAÇÕES CONTRATUAIS DE TERCEIROS</strong>\n- Tratar os dados apenas para as finalidades autorizadas\n- Cumprir esta Política e a LGPD\n- Adotar medidas técnicas e organizacionais de segurança\n- Manter a confidencialidade dos dados mesmo após o fim do contrato",
-        "<strong>6. ARMAZENAMENTO E RETENÇÃO</strong>\nOs dados serão armazenados de forma segura, em ambiente controlado, pelo tempo necessário ao cumprimento das finalidades descritas, respeitando prazos legais e regulatórios.",
-        "<strong>7. DIREITOS DOS TITULARES</strong>\n- Confirmação da existência de tratamento\n- Acesso aos dados pessoais\n- Correção de dados incompletos, inexatos ou desatualizados\n- Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos\n- Portabilidade dos dados\n- Eliminação dos dados tratados com consentimento\n- Informações sobre o compartilhamento de seus dados\n- Revogação do consentimento",
-        "<strong>8. SEGURANÇA DA INFORMAÇÃO</strong>\nA Empresa adota medidas técnicas e administrativas adequadas para proteção contra acessos não autorizados, perda, alteração ou divulgação indevida.",
-        "<strong>9. ALTERAÇÕES NA POLÍTICA</strong>\nEsta Política poderá ser atualizada periodicamente. Versões atualizadas estarão disponíveis em meio oficial da Empresa.",
-        "<strong>10. CONTATO</strong>\nPara dúvidas, contate o DPO: Reginaldo Gama Batista — <strong>reginaldo.batista@capelleng.com.br</strong>"
-      ]
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/report.svg",
-    "title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
-    "post": {
-      "date": "07/06/2025",
-      "publication": [
-        "<strong>1. CONTEXTUALIZAÇÃO DO TRATAMENTO DE DADOS</strong>\nA Capella Engenharia, sob o CNPJ 47.699.067/0001-20, localizada na Avenida Paulista, 1471 – Conj. 511, Sala 02, CP22637 – Bela Vista – CEP: 01311-927 – São Paulo, atua na prestação de serviços de engenharia e execução de projetos, envolvendo coleta e tratamento de dados pessoais de representantes de empresas clientes, fornecedores e parceiros comerciais.\n\nEste RIPD é elaborado em cumprimento ao art. 38 da LGPD (Lei 13.709/2018), documentando o ciclo de vida dos dados, riscos e medidas mitigatórias.",
-        "<strong>2. FINALIDADES DO TRATAMENTO</strong>\n- Elaboração de propostas comerciais, orçamentos e projetos técnicos\n- Contato com responsáveis técnicos e administrativos\n- Negociação, formalização e execução de contratos\n- Gestão de relacionamento e pós-venda\n- Cumprimento de obrigações legais, fiscais e regulatórias\n- Atendimento a auditorias e fiscalizações\n- Apoio operacional através de fornecedores, parceiros e terceirizados",
-        "<strong>3. CATEGORIAS DE DADOS PESSOAIS TRATADOS</strong>",
-        "<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Categoria de Dados</th><th class=\"border px-2 py-1\">Exemplos</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Identificação</td><td class=\"border px-2 py-1 break-words\">Nome completo, cargo, empresa de atuação</td></tr><tr><td class=\"border px-2 py-1 break-words\">Contato</td><td class=\"border px-2 py-1 break-words\">Telefone, e-mail corporativo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Profissionais</td><td class=\"border px-2 py-1 break-words\">Área de atuação, setor, função</td></tr><tr><td class=\"border px-2 py-1 break-words\">Dados contratuais</td><td class=\"border px-2 py-1 break-words\">Dados para formalização de contratos</td></tr></tbody></table></div>",
-        "<strong>4. TITULARES DOS DADOS</strong>\n- Representantes legais de empresas clientes\n- Responsáveis técnicos e administrativos\n- Contatos comerciais e operacionais",
-        "<strong>5. BASE LEGAL PARA O TRATAMENTO</strong>\n- Execução de contrato (art. 7º, V)\n- Cumprimento de obrigação legal/regulatória (art. 7º, II)\n- Legítimo interesse do controlador (art. 7º, IX)",
-        "<strong>6. COMPARTILHAMENTO DE DADOS</strong>\n- Empresas parceiras e fornecedores\n- Prestadores de tecnologia e nuvem\n- Órgãos públicos e autoridades\n- Auditores e consultores",
-        "<strong>7. ANÁLISE DE RISCOS E IMPACTOS</strong>",
-        "<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Risco Identificado</th><th class=\"border px-2 py-1\">Possíveis Impactos</th><th class=\"border px-2 py-1\">Nível de Risco</th><th class=\"border px-2 py-1\">Medidas Mitigatórias</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Acesso não autorizado</td><td class=\"border px-2 py-1 break-words\">Vazamento de dados</td><td class=\"border px-2 py-1\">Moderado</td><td class=\"border px-2 py-1 break-words\">Controle de acesso restrito, autenticação dupla</td></tr><tr><td class=\"border px-2 py-1 break-words\">Perda ou extravio de dados</td><td class=\"border px-2 py-1 break-words\">Indisponibilidade de informação</td><td class=\"border px-2 py-1\">Moderado</td><td class=\"border px-2 py-1 break-words\">Backups periódicos, redundância de dados</td></tr><tr><td class=\"border px-2 py-1 break-words\">Uso indevido por terceiros</td><td class=\"border px-2 py-1 break-words\">Violação de finalidade</td><td class=\"border px-2 py-1\">Alto</td><td class=\"border px-2 py-1 break-words\">Contratos com cláusulas de sigilo e LGPD</td></tr><tr><td class=\"border px-2 py-1 break-words\">Ataques cibernéticos</td><td class=\"border px-2 py-1 break-words\">Vazamento em larga escala</td><td class=\"border px-2 py-1\">Alto</td><td class=\"border px-2 py-1 break-words\">Antivírus, firewall, monitoramento contínuo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Incidente de segurança operacional</td><td class=\"border px-2 py-1 break-words\">Exposição acidental</td><td class=\"border px-2 py-1\">Baixo</td><td class=\"border px-2 py-1 break-words\">Treinamento de equipe, procedimentos internos</td></tr></tbody></table></div>",
-        "<strong>8. MEDIDAS DE GOVERNANÇA E SEGURANÇA IMPLEMENTADAS</strong>\n- Políticas internas e contratos de confidencialidade\n- Controle de acesso físico e lógico\n- Monitoramento e atualização contínua\n- Treinamento sobre LGPD\n- Designação de DPO",
-        "<strong>9. CONCLUSÃO</strong>\nA Capella Engenharia reconhece a importância da proteção dos dados pessoais de parceiros e clientes. Este relatório será revisado periodicamente.",
-        "<strong>10. CONTATO</strong>\nReginaldo Gama Batista — <strong>reginaldo.batista@capelleng.com.br</strong>"
-      ]
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/kpis.svg",
-    "title": "Indicadores de Desempenho: A Nova Engenharia Orientada a Resultados",
-    "post": {
-      "date": "07/06/2025",
-      "publication": [
-        "Por: Reginaldo Gama Batista — Administrador e Gestor de Projetos | Capella Engenharia",
-        "Em projetos de engenharia — sejam eles residenciais, industriais, logísticos ou hospitalares — não é mais suficiente entregar obras dentro do escopo físico. O verdadeiro sucesso de um projeto hoje é medido pela sua eficiência operacional, custo controlado, prazos ajustados e principalmente pela capacidade de gerar valor sustentável ao negócio do cliente. Neste cenário, indicadores de desempenho (KPIs) assumem um papel central na engenharia moderna, integrando conceitos avançados de gestão de projetos (PMBOK) e de metodologias ágeis (Agile) em um único modelo harmônico.",
-        "No passado, a engenharia de obras era predominantemente orientada a escopo físico e cumprimento de projetos com forte centralização no engenheiro de campo e pouca visibilidade para o cliente sobre o andamento real dos trabalhos. Hoje, com o avanço dos sistemas de informação, das metodologias de gestão de projetos e da cultura de dados, o cliente participa ativamente do ciclo do projeto, acompanhando indicadores em tempo real. Para o futuro, a tendência é de integração ainda maior com ferramentas de inteligência artificial, predição de riscos e simulação virtual de cenários, promovendo uma engenharia preditiva, proativa e cada vez mais alinhada aos objetivos estratégicos de negócio.",
-        "<strong>A importância dos indicadores em engenharia</strong>",
-        "Em projetos de engenharia, o impacto de variações de custos, desvios de cronograma e erros orçamentários pode ser exponencial. Por isso, a aplicação de indicadores de desempenho não é apenas uma ferramenta de controle, mas um diferencial estratégico na gestão dos empreendimentos.",
-        "Entre os principais indicadores monitorados, destacam-se:\n- CPI (Cost Performance Index): mede a eficiência do uso do orçamento.\n- SPI (Schedule Performance Index): mede o desempenho do cronograma.\n- Earned Value (EV): mede o valor agregado real entregue no projeto.\n- Backlog Controlado: projeta a carteira de serviços futuros e suas capacidades produtivas.\n- Burndown Charts (Agile): acompanha o avanço físico de entregas de forma incremental.",
-        "Estes indicadores permitem aos gestores tomar decisões assertivas com base em dados reais, permitindo rápida resposta a desvios e garantindo a entrega do projeto dentro de parâmetros técnicos e comerciais sustentáveis.",
-        "<strong>A integração PMBOK e Agile na engenharia prática</strong>",
-        "<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Elemento</th><th class=\"border px-2 py-1\">Aplicação PMBOK</th><th class=\"border px-2 py-1\">Aplicação Agile</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Planejamento Inicial</td><td class=\"border px-2 py-1 break-words\">Estrutura Analítica de Projeto (EAP)</td><td class=\"border px-2 py-1 break-words\">Definição de épicos e backlog de entregas</td></tr><tr><td class=\"border px-2 py-1 break-words\">Controle de Custos</td><td class=\"border px-2 py-1 break-words\">Baseline Orçamentário</td><td class=\"border px-2 py-1 break-words\">Revisões periódicas por sprints</td></tr><tr><td class=\"border px-2 py-1 break-words\">Cronograma</td><td class=\"border px-2 py-1 break-words\">Linha Base do Cronograma</td><td class=\"border px-2 py-1 break-words\">Burndown Chart com entregas incrementais</td></tr><tr><td class=\"border px-2 py-1 break-words\">Gestão de Riscos</td><td class=\"border px-2 py-1 break-words\">Registro formal de riscos</td><td class=\"border px-2 py-1 break-words\">Revisão contínua a cada ciclo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Comunicação</td><td class=\"border px-2 py-1 break-words\">Relatórios formais</td><td class=\"border px-2 py-1 break-words\">Daily meetings e feedback contínuo</td></tr></tbody></table></div>",
-        "<strong>Referências Bibliográficas</strong>",
-        "1. PMI – Project Management Institute. Guia PMBOK® — Guia do Conjunto de Conhecimentos em Gerenciamento de Projetos. 7ª edição, 2021.\n2. PMI Agile Practice Guide, Project Management Institute, 2017.\n3. Kerzner, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. Wiley, 2017.\n4. Schwaber, Ken; Sutherland, Jeff. The Scrum Guide. 2020.\n5. ABNT NBR ISO 21500 — Diretrizes de Gerenciamento de Projetos.\n6. Kaplan, Robert S.; Norton, David P. The Balanced Scorecard. Harvard Business Review Press, 1996.\n7. Gray, Clifford F.; Larson, Erik W. Project Management: The Managerial Process. McGraw-Hill, 2018.\n8. Experiência prática em obras industriais, logísticas, hospitalares e comerciais geridas pela Capella Engenharia."
-      ]
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/methodGrooved.svg",
-    "title": "Método Grooved para Sistemas de Combate a Incêndio: Agilidade, Segurança e Excelência Técnica",
-    "post": {
-      "date": "07/06/2025",
-      "publication": [
-        "Por: Tafael Lenon F. Bueno — Engenheiro Civil | CEO Capella Engenharia",
-        "Em edificações residenciais, comerciais e industriais, especialmente aquelas com grande circulação de pessoas ou operações críticas, um sistema de combate a incêndio eficiente e bem projetado é um dos elementos mais estratégicos da infraestrutura. Ele não apenas protege vidas, mas também preserva ativos, evita interrupção de operações e cumpre exigências legais.",
-        "<strong>O que é o método grooved e por que ele se destaca</strong>",
-        "O método grooved substitui conexões soldadas ou roscadas por acoplamentos mecânicos de engate rápido, que selam tubos via ranhuras (grooves) nas extremidades. Vantagens:\n- Instalação até 3× mais rápida, reduzindo horas de obra.\n- Liberação antecipada de áreas, acelerando start-up operacional.\n- Menos horas-homem e retrabalhos, economizando custos diretos e indiretos.",
-        "<strong>Manutenção simplificada e operação otimizada</strong>",
-        "Ao contrário dos sistemas tradicionais que exigem corte e solda, o grooved permite desmontagens rápidas e seguras para ajustes ou reparos, ideal em ambientes sensíveis.\n- Intervenções rápidas e menos invasivas.\n- Economia na manutenção preventiva e corretiva.",
-        "<strong>Capella Engenharia: Expert em Método Grooved</strong>",
-        "Com vasta experiência em projetos críticos, a Capella Engenharia lidera implantações de sistemas grooved do planejamento à manutenção, sempre alinhada às normas técnicas.",
-        "<strong>Referências técnicas</strong>\n1. NFPA 13 — Sprinkler Systems.\n2. FMDS 2-0/2-8 — Fire Protection Systems & Pumps.\n3. UL Listing — Componentes de incêndio.\n4. Victaulic, Gruvlok, TYCO — Manuais de acoplamento grooved.\n5. ABNT NBR 10897 e 13714 — Normas brasileiras.\n6. Koffel, SFPE Handbook — Manuais de engenharia."
-      ]
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/7.svg",
-    "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
-    "post": {
-      "date": "07/06/2025",
-      "publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta."
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/6.svg",
-    "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
-    "post": {
-      "date": "21/04/2025",
-      "publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor."
-    }
-  }
+	{
+		"image": "/public/images/svg/home/bloghome/policies.svg?v=2.0.0",
+		"title": "Política de Privacidade - LGPD",
+		"post": {
+			"date": "07/06/2025",
+			"publication": [
+				"A Capella Engenharia é comprometida com a privacidade e a proteção dos dados pessoais de seus clientes, parceiros e colaboradores, e apresenta sua Política de Privacidade em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).",
+				"<strong>1. CONTROLADOR DE DADOS</strong>\nA Capella Engenharia, CNPJ 47.699.067/0001-20, localizada na Avenida Paulista, 1471 – Conj. 511, Sala 02, CP22637 – Bela Vista – CEP: 01311-927 – São Paulo, atua como Controladora dos dados pessoais tratados em suas atividades.",
+				"<strong>2. ENCARREGADO DE PROTEÇÃO DE DADOS (DPO)</strong>\nO Encarregado de Proteção de Dados é o Sr. Reginaldo Gama Batista, que pode ser contatado pelo e-mail <strong>reginaldo.batista@capelleng.com.br</strong>.",
+				"<strong>3. DADOS COLETADOS</strong>\n- Nome completo\n- Cargo ou função\n- Empresa de atuação\n- Dados de contato (telefone, e-mail)\n- Informações para elaboração de orçamentos e propostas técnicas\n- Informações sobre a área responsável na empresa cliente\n- Demais informações fornecidas voluntariamente durante o relacionamento comercial",
+				"<strong>4. FINALIDADE DO TRATAMENTO DE DADOS</strong>\n- Elaboração de propostas comerciais e orçamentos\n- Contato com responsáveis técnicos e administrativos\n- Formalização e execução de contratos\n- Cumprimento de obrigações legais e regulatórias\n- Gestão de relacionamento comercial e pós-venda\n- Melhoria dos processos internos de planejamento e execução de serviços de engenharia\n- Atendimento a auditorias e órgãos fiscalizadores",
+				"<strong>5. COMPARTILHAMENTO DE DADOS</strong>\n- Fornecedores e prestadores de serviços administrativos, financeiros e contábeis\n- Parceiros comerciais envolvidos na execução dos contratos\n- Órgãos públicos, autoridades regulatórias, fiscais e judiciais\n- Empresas de tecnologia para armazenamento e proteção de dados",
+				"<strong>5.1. OBRIGAÇÕES CONTRATUAIS DE TERCEIROS</strong>\n- Tratar os dados apenas para as finalidades autorizadas\n- Cumprir esta Política e a LGPD\n- Adotar medidas técnicas e organizacionais de segurança\n- Manter a confidencialidade dos dados mesmo após o fim do contrato",
+				"<strong>6. ARMAZENAMENTO E RETENÇÃO</strong>\nOs dados serão armazenados de forma segura, em ambiente controlado, pelo tempo necessário ao cumprimento das finalidades descritas, respeitando prazos legais e regulatórios.",
+				"<strong>7. DIREITOS DOS TITULARES</strong>\n- Confirmação da existência de tratamento\n- Acesso aos dados pessoais\n- Correção de dados incompletos, inexatos ou desatualizados\n- Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos\n- Portabilidade dos dados\n- Eliminação dos dados tratados com consentimento\n- Informações sobre o compartilhamento de seus dados\n- Revogação do consentimento",
+				"<strong>8. SEGURANÇA DA INFORMAÇÃO</strong>\nA Empresa adota medidas técnicas e administrativas adequadas para proteção contra acessos não autorizados, perda, alteração ou divulgação indevida.",
+				"<strong>9. ALTERAÇÕES NA POLÍTICA</strong>\nEsta Política poderá ser atualizada periodicamente. Versões atualizadas estarão disponíveis em meio oficial da Empresa.",
+				"<strong>10. CONTATO</strong>\nPara dúvidas, contate o DPO: Reginaldo Gama Batista — <strong>reginaldo.batista@capelleng.com.br</strong>"
+			]
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/report.svg?v=2.0.0",
+		"title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
+		"post": {
+			"date": "07/06/2025",
+			"publication": [
+				"<strong>1. CONTEXTUALIZAÇÃO DO TRATAMENTO DE DADOS</strong>\nA Capella Engenharia, sob o CNPJ 47.699.067/0001-20, localizada na Avenida Paulista, 1471 – Conj. 511, Sala 02, CP22637 – Bela Vista – CEP: 01311-927 – São Paulo, atua na prestação de serviços de engenharia e execução de projetos, envolvendo coleta e tratamento de dados pessoais de representantes de empresas clientes, fornecedores e parceiros comerciais.\n\nEste RIPD é elaborado em cumprimento ao art. 38 da LGPD (Lei 13.709/2018), documentando o ciclo de vida dos dados, riscos e medidas mitigatórias.",
+				"<strong>2. FINALIDADES DO TRATAMENTO</strong>\n- Elaboração de propostas comerciais, orçamentos e projetos técnicos\n- Contato com responsáveis técnicos e administrativos\n- Negociação, formalização e execução de contratos\n- Gestão de relacionamento e pós-venda\n- Cumprimento de obrigações legais, fiscais e regulatórias\n- Atendimento a auditorias e fiscalizações\n- Apoio operacional através de fornecedores, parceiros e terceirizados",
+				"<strong>3. CATEGORIAS DE DADOS PESSOAIS TRATADOS</strong>",
+				"<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Categoria de Dados</th><th class=\"border px-2 py-1\">Exemplos</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Identificação</td><td class=\"border px-2 py-1 break-words\">Nome completo, cargo, empresa de atuação</td></tr><tr><td class=\"border px-2 py-1 break-words\">Contato</td><td class=\"border px-2 py-1 break-words\">Telefone, e-mail corporativo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Profissionais</td><td class=\"border px-2 py-1 break-words\">Área de atuação, setor, função</td></tr><tr><td class=\"border px-2 py-1 break-words\">Dados contratuais</td><td class=\"border px-2 py-1 break-words\">Dados para formalização de contratos</td></tr></tbody></table></div>",
+				"<strong>4. TITULARES DOS DADOS</strong>\n- Representantes legais de empresas clientes\n- Responsáveis técnicos e administrativos\n- Contatos comerciais e operacionais",
+				"<strong>5. BASE LEGAL PARA O TRATAMENTO</strong>\n- Execução de contrato (art. 7º, V)\n- Cumprimento de obrigação legal/regulatória (art. 7º, II)\n- Legítimo interesse do controlador (art. 7º, IX)",
+				"<strong>6. COMPARTILHAMENTO DE DADOS</strong>\n- Empresas parceiras e fornecedores\n- Prestadores de tecnologia e nuvem\n- Órgãos públicos e autoridades\n- Auditores e consultores",
+				"<strong>7. ANÁLISE DE RISCOS E IMPACTOS</strong>",
+				"<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Risco Identificado</th><th class=\"border px-2 py-1\">Possíveis Impactos</th><th class=\"border px-2 py-1\">Nível de Risco</th><th class=\"border px-2 py-1\">Medidas Mitigatórias</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Acesso não autorizado</td><td class=\"border px-2 py-1 break-words\">Vazamento de dados</td><td class=\"border px-2 py-1\">Moderado</td><td class=\"border px-2 py-1 break-words\">Controle de acesso restrito, autenticação dupla</td></tr><tr><td class=\"border px-2 py-1 break-words\">Perda ou extravio de dados</td><td class=\"border px-2 py-1 break-words\">Indisponibilidade de informação</td><td class=\"border px-2 py-1\">Moderado</td><td class=\"border px-2 py-1 break-words\">Backups periódicos, redundância de dados</td></tr><tr><td class=\"border px-2 py-1 break-words\">Uso indevido por terceiros</td><td class=\"border px-2 py-1 break-words\">Violação de finalidade</td><td class=\"border px-2 py-1\">Alto</td><td class=\"border px-2 py-1 break-words\">Contratos com cláusulas de sigilo e LGPD</td></tr><tr><td class=\"border px-2 py-1 break-words\">Ataques cibernéticos</td><td class=\"border px-2 py-1 break-words\">Vazamento em larga escala</td><td class=\"border px-2 py-1\">Alto</td><td class=\"border px-2 py-1 break-words\">Antivírus, firewall, monitoramento contínuo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Incidente de segurança operacional</td><td class=\"border px-2 py-1 break-words\">Exposição acidental</td><td class=\"border px-2 py-1\">Baixo</td><td class=\"border px-2 py-1 break-words\">Treinamento de equipe, procedimentos internos</td></tr></tbody></table></div>",
+				"<strong>8. MEDIDAS DE GOVERNANÇA E SEGURANÇA IMPLEMENTADAS</strong>\n- Políticas internas e contratos de confidencialidade\n- Controle de acesso físico e lógico\n- Monitoramento e atualização contínua\n- Treinamento sobre LGPD\n- Designação de DPO",
+				"<strong>9. CONCLUSÃO</strong>\nA Capella Engenharia reconhece a importância da proteção dos dados pessoais de parceiros e clientes. Este relatório será revisado periodicamente.",
+				"<strong>10. CONTATO</strong>\nReginaldo Gama Batista — <strong>reginaldo.batista@capelleng.com.br</strong>"
+			]
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/kpis.svg?v=2.0.0",
+		"title": "Indicadores de Desempenho: A Nova Engenharia Orientada a Resultados",
+		"post": {
+			"date": "07/06/2025",
+			"publication": [
+				"Por: Reginaldo Gama Batista — Administrador e Gestor de Projetos | Capella Engenharia",
+				"Em projetos de engenharia — sejam eles residenciais, industriais, logísticos ou hospitalares — não é mais suficiente entregar obras dentro do escopo físico. O verdadeiro sucesso de um projeto hoje é medido pela sua eficiência operacional, custo controlado, prazos ajustados e principalmente pela capacidade de gerar valor sustentável ao negócio do cliente. Neste cenário, indicadores de desempenho (KPIs) assumem um papel central na engenharia moderna, integrando conceitos avançados de gestão de projetos (PMBOK) e de metodologias ágeis (Agile) em um único modelo harmônico.",
+				"No passado, a engenharia de obras era predominantemente orientada a escopo físico e cumprimento de projetos com forte centralização no engenheiro de campo e pouca visibilidade para o cliente sobre o andamento real dos trabalhos. Hoje, com o avanço dos sistemas de informação, das metodologias de gestão de projetos e da cultura de dados, o cliente participa ativamente do ciclo do projeto, acompanhando indicadores em tempo real. Para o futuro, a tendência é de integração ainda maior com ferramentas de inteligência artificial, predição de riscos e simulação virtual de cenários, promovendo uma engenharia preditiva, proativa e cada vez mais alinhada aos objetivos estratégicos de negócio.",
+				"<strong>A importância dos indicadores em engenharia</strong>",
+				"Em projetos de engenharia, o impacto de variações de custos, desvios de cronograma e erros orçamentários pode ser exponencial. Por isso, a aplicação de indicadores de desempenho não é apenas uma ferramenta de controle, mas um diferencial estratégico na gestão dos empreendimentos.",
+				"Entre os principais indicadores monitorados, destacam-se:\n- CPI (Cost Performance Index): mede a eficiência do uso do orçamento.\n- SPI (Schedule Performance Index): mede o desempenho do cronograma.\n- Earned Value (EV): mede o valor agregado real entregue no projeto.\n- Backlog Controlado: projeta a carteira de serviços futuros e suas capacidades produtivas.\n- Burndown Charts (Agile): acompanha o avanço físico de entregas de forma incremental.",
+				"Estes indicadores permitem aos gestores tomar decisões assertivas com base em dados reais, permitindo rápida resposta a desvios e garantindo a entrega do projeto dentro de parâmetros técnicos e comerciais sustentáveis.",
+				"<strong>A integração PMBOK e Agile na engenharia prática</strong>",
+				"<div class=\"w-full overflow-x-auto\"><table class=\"table-auto w-full whitespace-normal border border-gray-300 my-4\"><thead class=\"bg-gray-100\"><tr><th class=\"border px-2 py-1\">Elemento</th><th class=\"border px-2 py-1\">Aplicação PMBOK</th><th class=\"border px-2 py-1\">Aplicação Agile</th></tr></thead><tbody><tr><td class=\"border px-2 py-1 break-words\">Planejamento Inicial</td><td class=\"border px-2 py-1 break-words\">Estrutura Analítica de Projeto (EAP)</td><td class=\"border px-2 py-1 break-words\">Definição de épicos e backlog de entregas</td></tr><tr><td class=\"border px-2 py-1 break-words\">Controle de Custos</td><td class=\"border px-2 py-1 break-words\">Baseline Orçamentário</td><td class=\"border px-2 py-1 break-words\">Revisões periódicas por sprints</td></tr><tr><td class=\"border px-2 py-1 break-words\">Cronograma</td><td class=\"border px-2 py-1 break-words\">Linha Base do Cronograma</td><td class=\"border px-2 py-1 break-words\">Burndown Chart com entregas incrementais</td></tr><tr><td class=\"border px-2 py-1 break-words\">Gestão de Riscos</td><td class=\"border px-2 py-1 break-words\">Registro formal de riscos</td><td class=\"border px-2 py-1 break-words\">Revisão contínua a cada ciclo</td></tr><tr><td class=\"border px-2 py-1 break-words\">Comunicação</td><td class=\"border px-2 py-1 break-words\">Relatórios formais</td><td class=\"border px-2 py-1 break-words\">Daily meetings e feedback contínuo</td></tr></tbody></table></div>",
+				"<strong>Referências Bibliográficas</strong>",
+				"1. PMI – Project Management Institute. Guia PMBOK® — Guia do Conjunto de Conhecimentos em Gerenciamento de Projetos. 7ª edição, 2021.\n2. PMI Agile Practice Guide, Project Management Institute, 2017.\n3. Kerzner, Harold. Project Management: A Systems Approach to Planning, Scheduling, and Controlling. Wiley, 2017.\n4. Schwaber, Ken; Sutherland, Jeff. The Scrum Guide. 2020.\n5. ABNT NBR ISO 21500 — Diretrizes de Gerenciamento de Projetos.\n6. Kaplan, Robert S.; Norton, David P. The Balanced Scorecard. Harvard Business Review Press, 1996.\n7. Gray, Clifford F.; Larson, Erik W. Project Management: The Managerial Process. McGraw-Hill, 2018.\n8. Experiência prática em obras industriais, logísticas, hospitalares e comerciais geridas pela Capella Engenharia."
+			]
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=2.0.0",
+		"title": "Método Grooved para Sistemas de Combate a Incêndio: Agilidade, Segurança e Excelência Técnica",
+		"post": {
+			"date": "07/06/2025",
+			"publication": [
+				"Por: Tafael Lenon F. Bueno — Engenheiro Civil | CEO Capella Engenharia",
+				"Em edificações residenciais, comerciais e industriais, especialmente aquelas com grande circulação de pessoas ou operações críticas, um sistema de combate a incêndio eficiente e bem projetado é um dos elementos mais estratégicos da infraestrutura. Ele não apenas protege vidas, mas também preserva ativos, evita interrupção de operações e cumpre exigências legais.",
+				"<strong>O que é o método grooved e por que ele se destaca</strong>",
+				"O método grooved substitui conexões soldadas ou roscadas por acoplamentos mecânicos de engate rápido, que selam tubos via ranhuras (grooves) nas extremidades. Vantagens:\n- Instalação até 3× mais rápida, reduzindo horas de obra.\n- Liberação antecipada de áreas, acelerando start-up operacional.\n- Menos horas-homem e retrabalhos, economizando custos diretos e indiretos.",
+				"<strong>Manutenção simplificada e operação otimizada</strong>",
+				"Ao contrário dos sistemas tradicionais que exigem corte e solda, o grooved permite desmontagens rápidas e seguras para ajustes ou reparos, ideal em ambientes sensíveis.\n- Intervenções rápidas e menos invasivas.\n- Economia na manutenção preventiva e corretiva.",
+				"<strong>Capella Engenharia: Expert em Método Grooved</strong>",
+				"Com vasta experiência em projetos críticos, a Capella Engenharia lidera implantações de sistemas grooved do planejamento à manutenção, sempre alinhada às normas técnicas.",
+				"<strong>Referências técnicas</strong>\n1. NFPA 13 — Sprinkler Systems.\n2. FMDS 2-0/2-8 — Fire Protection Systems & Pumps.\n3. UL Listing — Componentes de incêndio.\n4. Victaulic, Gruvlok, TYCO — Manuais de acoplamento grooved.\n5. ABNT NBR 10897 e 13714 — Normas brasileiras.\n6. Koffel, SFPE Handbook — Manuais de engenharia."
+			]
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/7.svg?v=2.0.0",
+		"title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
+		"post": {
+			"date": "07/06/2025",
+			"publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta."
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/6.svg?v=2.0.0",
+		"title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
+		"post": {
+			"date": "21/04/2025",
+			"publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor."
+		}
+	}
 ]
