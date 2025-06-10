@@ -1180,12 +1180,12 @@ video {
 	--tw-bg-opacity: 0.5
 }
 
-.bg-\[url\(\'\.\.\/\.\.\/\.\.\/public\/images\/svg\/contact\/bgContact\.svg\?v\=1\.0\.0\'\)\] {
-	background-image: url(../../../public/images/svg/contact/bgContact.svg?v=2.0.0)
+.bg-\[url\(\'\.\.\/\.\.\/\.\.\/public\/images\/svg\/contact\/bgContact\.svg\'\)\] {
+	background-image: url(../../../public/images/svg/contact/bgContact.svg)
 }
 
-.bg-\[url\(\'\/public\/images\/svg\/blog\/blogBg\.svg\?v\=1\.0\.0\'\)\] {
-	background-image: url(/public/images/svg/blog/blogBg.svg?v=2.0.0)
+.bg-\[url\(\'\/public\/images\/svg\/blog\/blogBg\.svg\'\)\] {
+	background-image: url(/public/images/svg/blog/blogBg.svg)
 }
 
 .bg-gradient-to-r {

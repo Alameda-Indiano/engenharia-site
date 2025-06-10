@@ -94,7 +94,7 @@ export class BlogGrid extends HTMLElement {
 		if (this.filteredPosts.length === 0) {
 			container.innerHTML = `
         <div class="text-center text-gray-600 py-16">
-          Nenhum resultado encontrado para "<span class="font-semibold text-gray-800">${this.searchTerm}</span>".
+          Nenhum resultado encontrado para "<span class=\"font-semibold text-gray-800\">${this.searchTerm}</span>".
         </div>
       `;
 			return;
@@ -120,7 +120,10 @@ export class BlogGrid extends HTMLElement {
 					rawPub.length > 120 ? rawPub.slice(0, 120).trim() + "..." : rawPub;
 
 				return `
-          <div class="bg-white rounded-lg overflow-hidden shadow h-full flex flex-col w-full max-w-sm cursor-pointer">
+          <div
+            data-index="${realIndex}"
+            class="card bg-white rounded-lg overflow-hidden shadow h-full flex flex-col w-full max-w-sm cursor-pointer"
+          >
             <div class="px-4 py-6">
               <h3 class="text-text-medium text-lg font-bold leading-tight">
                 ${item.title}
@@ -174,6 +177,14 @@ export class BlogGrid extends HTMLElement {
       </div>
       ${paginationHtml}
     `;
+
+		// faz todo o card clicável
+		this.querySelectorAll("#gridContainer .card").forEach((card) => {
+			card.addEventListener("click", () => {
+				const id = card.getAttribute("data-index");
+				window.location.href = `/src/pages/blog/posts/index.html?id=${id}`;
+			});
+		});
 
 		this.querySelectorAll("[data-page]").forEach((btn) => {
 			btn.addEventListener("click", (e) => {

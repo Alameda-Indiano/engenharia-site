@@ -1,6 +1,6 @@
 [
 	{
-		"image": "/public/images/svg/home/bloghome/policies.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/policies.svg",
 		"title": "Política de Privacidade - LGPD",
 		"post": {
 			"date": "07/06/2025",
@@ -21,7 +21,7 @@
 		}
 	},
 	{
-		"image": "/public/images/svg/home/bloghome/report.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/report.svg",
 		"title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
 		"post": {
 			"date": "07/06/2025",
@@ -42,7 +42,7 @@
 		}
 	},
 	{
-		"image": "/public/images/svg/home/bloghome/kpis.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/kpis.svg",
 		"title": "Indicadores de Desempenho: A Nova Engenharia Orientada a Resultados",
 		"post": {
 			"date": "07/06/2025",
@@ -62,7 +62,7 @@
 		}
 	},
 	{
-		"image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/methodGrooved.svg",
 		"title": "Método Grooved para Sistemas de Combate a Incêndio: Agilidade, Segurança e Excelência Técnica",
 		"post": {
 			"date": "07/06/2025",
@@ -80,7 +80,7 @@
 		}
 	},
 	{
-		"image": "/public/images/svg/home/bloghome/7.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/7.svg",
 		"title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
 		"post": {
 			"date": "07/06/2025",
@@ -88,7 +88,15 @@
 		}
 	},
 	{
-		"image": "/public/images/svg/home/bloghome/6.svg?v=2.0.0",
+		"image": "/public/images/svg/home/bloghome/6.svg",
+		"title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
+		"post": {
+			"date": "21/04/2025",
+			"publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor."
+		}
+	},
+	{
+		"image": "/public/images/svg/home/bloghome/6.svg",
 		"title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
 		"post": {
 			"date": "21/04/2025",
