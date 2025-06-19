@@ -1,38 +1,38 @@
 [
   {
-    "icon": "fa-warehouse",
+    "image": "/public/images/icons/circlesHome/hangar.svg",
     "label": "Galpões Industriais"
   },
   {
-    "icon": "fa-building",
+    "image": "public/images/icons/circlesHome/corporation.svg",
     "label": "Espaços Corporativos"
   },
   {
-    "icon": "fa-border-all",
+    "image": "/public/images/icons/circlesHome/floor.svg",
     "label": "Pisos Intertravado"
   },
   {
-    "icon": "fa-bolt",
+    "image": "/public/images/icons/circlesHome/electrical.svg",
     "label": "Elétrica Baixa Tensão"
   },
   {
-    "icon": "fa-water",
+    "image": "/public/images/icons/circlesHome/sewage.svg",
     "label": "Hidráulica e Drenagem"
   },
   {
-    "icon": "fa-network-wired",
+    "image": "/public/images/icons/circlesHome/piping.svg",
     "label": "Rede de Dutora"
   },
   {
-    "icon": "fa-drafting-compass",
+    "image": "/public/images/icons/circlesHome/concrete.svg",
     "label": "Concreto Armado"
   },
   {
-    "icon": "fa-hard-hat",
+    "image": "/public/images/icons/circlesHome/strutucre.svg",
     "label": "Estruturas Metálicas"
   },
   {
-    "icon": "fa-plug",
+    "image": "/public/images/icons/circlesHome/take.svg",
     "label": "Instalações Elétricas"
   }
 ]

@@ -10,7 +10,7 @@ export class BlogGrid extends HTMLElement {
         return;
       }
 
-      this.posts = posts;
+      this.posts = posts.slice(3);
       this.filteredPosts = posts.slice();
       this.searchTerm = "";
       this.currentPage = 1;
@@ -141,7 +141,7 @@ export class BlogGrid extends HTMLElement {
                 ${snippet}
               </p>
               <a
-                href="/src/pages/blog/posts/index.html?id=${realIndex}"
+                href="/src/pages/blog/posts/index.html?id=${realIndex + 3}"
                 class="mt-auto text-text-details font-medium"
               >
                 Saiba Mais
@@ -179,10 +179,9 @@ export class BlogGrid extends HTMLElement {
       ${paginationHtml}
     `;
 
-    // faz todo o card clicável
     this.querySelectorAll("#gridContainer .card").forEach((card) => {
       card.addEventListener("click", () => {
-        const id = card.getAttribute("data-index");
+        const id = Number(card.getAttribute("data-index")) + 3;
         window.location.href = `/src/pages/blog/posts/index.html?id=${id}`;
       });
     });

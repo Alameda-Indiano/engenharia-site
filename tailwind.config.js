@@ -5,7 +5,7 @@ export default {
     "./public/**/*.html",
     "./public/**/*.js",
     "./src/**/*.html",
-    "./src/**/*.js"
+    "./src/**/*.js",
   ],
   theme: {
     extend: {
@@ -45,5 +45,17 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".no-scrollbar": {
+          "scrollbar-width": "none",
+          "-ms-overflow-style": "none",
+        },
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+      });
+    },
+  ],
 };

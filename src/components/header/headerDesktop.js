@@ -5,8 +5,8 @@ export class HeaderCustom extends HTMLElement {
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
-            src="/public/images/png/logo.png"
-            width="70"
+            src="/public/images/logos/verticalLogoBlack.svg"
+            width="60"
             alt="Logotipo Capella Engenharia"
           />
         </div>
@@ -29,17 +29,17 @@ export class HeaderCustom extends HTMLElement {
               <ul id="sub-menu-solucoes" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3">
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/civil/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Obra Industrial Civil
+                    Guia Básico de Industria Civil para Atuação da Capella Engenharia
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/industrial/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Instalações Industriais
+                   Guia Básico das Instalações Industriais para Atuação da Capella Engenharia;
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/projects/index.html" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Projetos de Engenharia
+                   Guia Básico de Projetos de Engenharia para Atuação da Capella Engenharia;
                   </a>
                 </li>
               </ul>
@@ -59,6 +59,11 @@ export class HeaderCustom extends HTMLElement {
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/blog/posts/index.html?id=1" class="hover:text-text-details transition-colors duration-300 font-medium">
                     Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
+                  </a>
+                </li>
+                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
+                  <a href="/src/pages/blog/posts/index.html?id=2" class="hover:text-text-details transition-colors duration-300 font-medium">
+                   Código de Conduta, Moral e Ética
                   </a>
                 </li>
               </ul>

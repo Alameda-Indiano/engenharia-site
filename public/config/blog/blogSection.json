@@ -1,6 +1,6 @@
 [
   {
-    "image": "/public/images/svg/home/bloghome/policies.svg",
+    "image": "/public/images/svg/policies/privacity.svg",
     "title": "Política de Privacidade - LGPD",
     "post": {
       "date": "07/06/2025",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/report.svg",
+    "image": "/public/images/svg/policies/report.svg",
     "title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
     "post": {
       "date": "07/06/2025",
@@ -38,6 +38,74 @@
         "<strong>8. MEDIDAS DE GOVERNANÇA E SEGURANÇA IMPLEMENTADAS</strong>\n- Políticas internas e contratos de confidencialidade\n- Controle de acesso físico e lógico\n- Monitoramento e atualização contínua\n- Treinamento sobre LGPD\n- Designação de DPO",
         "<strong>9. CONCLUSÃO</strong>\nA Capella Engenharia reconhece a importância da proteção dos dados pessoais de parceiros e clientes. Este relatório será revisado periodicamente.",
         "<strong>10. CONTATO</strong>\nReginaldo Gama Batista — <strong>reginaldo.batista@capelleng.com.br</strong>"
+      ]
+    }
+  },
+  {
+    "image": "/public/images/svg/policies/codeOfConduct.svg",
+    "title": "Código de Conduta, Moral e Ética: Compromisso com a Integridade e o Respeito",
+    "post": {
+      "date": "07/06/2025",
+      "publication": [
+        "Por: Equipe Capella Engenharia",
+        "Na Capella Engenharia, acreditamos que a forma como conduzimos nossas atividades é tão importante quanto os resultados que entregamos. Por isso, adotamos como princípio a construção de relações baseadas na ética, no respeito mútuo, na responsabilidade e na transparência. Nosso compromisso vai além da excelência técnica em obras e projetos — ele envolve também a maneira como nos relacionamos com colaboradores, clientes, fornecedores, parceiros e com a sociedade em geral.",
+        "Este Código de Conduta, Moral e Ética foi desenvolvido como um guia prático, acessível e humano, aplicável a todos os que atuam conosco, direta ou indiretamente. Ele estabelece padrões de comportamento que norteiam decisões, atitudes e interações no ambiente de trabalho e nas relações externas da Capella. Seu objetivo é reforçar os valores que sustentam nossa identidade organizacional, promovendo um ambiente de confiança, segurança e profissionalismo em todos os níveis da empresa.",
+        "Manter esse código atualizado e presente no dia a dia da Capella é uma prioridade. Estamos atentos às mudanças legais, sociais e de mercado, buscando garantir que nossas práticas estejam sempre alinhadas às melhores condutas e às expectativas de uma sociedade mais justa e consciente. Este documento é vivo e coletivo: ele representa a cultura que escolhemos cultivar e o compromisso de todos em zelar por uma engenharia ética, segura e responsável.",
+        "<strong>Nossos Princípios</strong>",
+        "A Capella Engenharia preza por princípios comuns à boa relação e conduta moral, respeitando os bons costumes e promovendo o bem-estar e o respeito mútuo entre todos os envolvidos nos projetos em que atua. Com base nisso, direcionamos nossas ações para:",
+        "- <strong>Respeito às pessoas e às diferenças:</strong> Cada indivíduo tem sua história, visão e contribuição única, e o ambiente de trabalho só evolui quando valorizamos essa pluralidade.",
+        "- <strong>Transparência nas relações:</strong> Acreditamos que a confiança se constrói com diálogo claro, informação verdadeira e atitudes coerentes.",
+        "- <strong>Responsabilidade com a qualidade e os compromissos assumidos:</strong> Entregar com excelência é mais do que um diferencial — é um reflexo do nosso respeito por quem confia na Capella.",
+        "- <strong>Conduta ética e profissional:</strong> Acreditamos que os meios importam tanto quanto os fins, e que toda decisão deve refletir nossos valores.",
+        "- <strong>Busca constante por melhoria, inovação e segurança:</strong> Entendemos que crescer com consistência exige coragem para evoluir, aprender e antecipar riscos.",
+        "<strong>Compromisso coletivo</strong>",
+        "Ao seguirmos estes princípios, promovemos um ambiente de trabalho mais justo, transparente e comprometido com a integridade. A Capella Engenharia reforça seu papel não apenas como realizadora de projetos, mas como agente de transformação ética dentro e fora dos canteiros de obra.",
+        "<strong>3. CONDUTAS ESPERADAS DE QUEM REPRESENTA A CAPELLA</strong>",
+        "<strong>I. Para Sócios e Colaboradores</strong>",
+        "• <strong>Agir com lealdade e comprometimento, representando a Capella com orgulho:</strong> Vestir a camisa da Capella é mais do que fazer bem o seu trabalho — é ter orgulho de onde estamos e do que construímos juntos. É agir com honestidade, responsabilidade e sempre dar o nosso melhor, sabendo que cada atitude impacta diretamente a imagem da empresa.",
+        "• <strong>Trabalhar em equipe, com respeito e abertura ao diálogo:</strong> Aqui, ninguém faz nada sozinho. O respeito entre as pessoas e a vontade de ouvir e aprender uns com os outros fazem toda a diferença no dia a dia. Trabalhar em equipe é compartilhar ideias, ajudar quando for preciso e crescer junto.",
+        "• <strong>Proteger informações confidenciais e dados sensíveis da empresa e dos clientes:</strong> Confiança se conquista e se preserva. Por isso, cuidar das informações da empresa e dos nossos clientes é um compromisso de todos. O que é confidencial deve ser tratado com seriedade, como se fosse algo pessoal e importante para você.",
+        "• <strong>Buscar a execução com excelência, dentro dos padrões técnicos, de segurança e qualidade:</strong> Fazer bem feito é nosso padrão. Buscamos sempre entregar com qualidade, seguir as normas, cuidar da segurança e garantir que tudo esteja à altura do que a Capella promete. Excelência não é perfeição, é fazer com atenção, responsabilidade e vontade de melhorar.",
+        "• <strong>Manter postura ética e moral compatível com os valores institucionais da empresa:</strong> Ser ético é fazer o certo, mesmo quando ninguém está olhando. Nosso comportamento no trabalho precisa refletir respeito, responsabilidade e coerência com os valores que acreditamos como empresa e como pessoas.",
+        "• <strong>Denunciar práticas ilícitas, abusivas ou antiéticas quando identificadas:</strong> Fechar os olhos para algo errado também é um erro. Se você perceber atitudes que vão contra o que acreditamos — como injustiças, abusos ou qualquer prática antiética — fale. Denunciar é uma forma de proteger o ambiente de trabalho e todos que fazem parte dele.",
+        "<strong>II. Para Fornecedores e Prestadores de Serviço</strong>",
+        "• <strong>Cumprir contratos, prazos e entregas com responsabilidade e boa-fé:</strong> Quando assumimos um compromisso, ele precisa ser honrado. Cumprir contratos, respeitar prazos e entregar o que foi combinado, da forma certa, mostra responsabilidade e respeito com todos os envolvidos. Agir com boa-fé fortalece a confiança e cria relações duradouras.",
+        "• <strong>Oferecer condições de trabalho dignas e seguras a seus colaboradores:</strong> Ambiente de trabalho bom é aquele onde as pessoas se sentem respeitadas, seguras e valorizadas. Garantir condições dignas não é só obrigação — é o mínimo para que todos possam trabalhar com tranquilidade, saúde e motivação.",
+        "• <strong>Estar em conformidade com legislação trabalhista, fiscal, ambiental e de proteção de dados:</strong> Fazer o certo também significa seguir as leis que regulam o nosso trabalho. Isso inclui cuidar bem das pessoas, pagar impostos corretamente, respeitar o meio ambiente e proteger os dados de todos com quem nos relacionamos. Agir conforme a lei evita riscos e fortalece a reputação da empresa.",
+        "• <strong>Manter uma relação aberta, ética e colaborativa com a Capella:</strong> Trabalhar junto é mais fácil quando há transparência, respeito e parceria. Ter uma relação aberta e ética com a Capella significa conversar com franqueza, resolver problemas com maturidade e buscar o melhor resultado de forma colaborativa.",
+        "• <strong>Repudiar qualquer prática de corrupção, suborno ou favorecimento indevido:</strong> Não compactuamos com jeitinhos ou vantagens indevidas. Corrupção, suborno ou favorecimento não têm espaço aqui. Nosso compromisso é com a integridade, e isso vale para todos: colaboradores, parceiros e fornecedores.",
+        "<strong>III. Para Clientes e Parceiros Comerciais</strong>",
+        "• <strong>Manter relações baseadas em confiança, respeito e comunicação clara:</strong> Relações sólidas se constroem com transparência e consideração. Quando há respeito mútuo, confiança e uma comunicação clara, o trabalho flui melhor e todos se sentem mais seguros para contribuir e crescer juntos.",
+        "• <strong>Compartilhar informações essenciais para o bom desenvolvimento dos projetos:</strong> Projetos bem-sucedidos dependem do alinhamento entre todos os envolvidos. Compartilhar as informações certas, na hora certa, evita retrabalho, reduz riscos e garante que as decisões sejam tomadas com base em dados confiáveis e atualizados.",
+        "• <strong>Incentivar boas práticas de engenharia, segurança e sustentabilidade ao longo do ciclo da obra:</strong> Cada etapa de uma obra é uma oportunidade de fazer melhor. Valorizar a engenharia bem-feita, cuidar da segurança de todos no canteiro e agir com responsabilidade ambiental mostram nosso compromisso com o presente e com o futuro.",
+        "• <strong>Adotar uma postura ética e respeitosa nas tratativas e decisões contratuais:</strong> Negociar com ética e respeito é fundamental para manter relações saudáveis e profissionais. Em qualquer contrato, o que deve prevalecer é a integridade, o equilíbrio e a busca por soluções justas para ambas as partes.",
+        "<strong>4. Ética e Moral nas Ações do Dia a Dia</strong>",
+        "Agir com ética é escolher o caminho certo, mesmo diante de situações difíceis. Ter moral é viver de acordo com princípios sólidos, que refletem respeito pelo próximo, responsabilidade e integridade. Na Capella, esperamos que todos:",
+        "• Recusem práticas antiéticas, como propina, fraude, omissão de informação ou uso indevido de recursos;",
+        "• Respeitem hierarquias e diferenças sem autoritarismo ou submissão abusiva;",
+        "• Valorizem o trabalho coletivo, a justiça e a transparência nas decisões;",
+        "• Sejam exemplos positivos dentro e fora do ambiente de trabalho.",
+        "<strong>5. Segurança, Planejamento e Qualidade</strong>",
+        "Acreditamos que não existe qualidade sem planejamento, nem produtividade sem segurança. Toda obra conduzida pela Capella deve prezar por:",
+        "• Aplicar normas de segurança (NRs, NBRs) desde o primeiro dia de projeto;",
+        "• Adotar o planejamento como base para cada decisão tomada no canteiro;",
+        "• Promover treinamentos e orientação aos trabalhadores e parceiros;",
+        "• Manter foco em soluções inovadoras que aumentem a qualidade e reduzam riscos.",
+        "<strong>6. Privacidade e Proteção de Dados</strong>",
+        "A Capella respeita a privacidade de todos com quem se relaciona. Seguimos a LGPD com responsabilidade e clareza. Todos os dados pessoais coletados são:",
+        "• Tratados apenas para finalidades legítimas;",
+        "• Armazenados de forma segura;",
+        "• Compartilhados apenas quando necessário e com base legal;",
+        "• Mantidos em sigilo mesmo após o término da relação contratual.",
+        "<strong>7. Sustentabilidade é compromisso, não tendência</strong>",
+        "Reduzir desperdícios, utilizar materiais de forma inteligente e buscar soluções eficientes vão além de boas práticas: representam uma postura consciente e responsável que a Capella Engenharia adota em todos os seus projetos. Cada escolha, do planejamento à execução, é pensada para otimizar recursos, evitar retrabalhos e promover a máxima eficiência técnica e econômica, sempre com foco na qualidade e no resultado final da obra.",
+        "Mais do que atender às exigências do mercado, essas ações refletem um compromisso genuíno com a sustentabilidade e o respeito ao meio ambiente. A Capella entende que construir com responsabilidade significa também preservar o que está ao redor: reduzir impactos ambientais, valorizar tecnologias limpas e adotar soluções que contribuam para um futuro mais equilibrado. Essa visão faz parte da nossa identidade e se traduz em obras mais conscientes, duradouras e alinhadas com os desafios do nosso tempo.",
+        "<strong>8. Canal de Diálogo e Denúncias</strong>",
+        "Na Capella, acreditamos que um ambiente íntegro e ético só se constrói com transparência e responsabilidade compartilhada. Por isso, oferecemos um canal seguro e acessível para que todos — colaboradores, fornecedores, prestadores de serviço e demais parceiros — possam relatar, com total sigilo, quaisquer condutas que violem este código de conduta, os valores da empresa ou a legislação vigente. A liberdade de expressão responsável é parte essencial de uma cultura organizacional saudável e colaborativa.",
+        "As manifestações podem ser feitas de forma segura, confidencial e sem risco de retaliação. Garantimos o tratamento adequado de cada relato, com seriedade e imparcialidade. Nosso compromisso é apurar os fatos, promover a correção de desvios e fortalecer continuamente os princípios que regem a atuação da Capella. O canal está disponível pelo e-mail: <a href=\"mailto:contato.adm@capellaeng.com.br\">contato.adm@capellaeng.com.br</a> — utilize sempre que necessário.",
+        "<strong>9. Validade e Compromisso</strong>",
+        "Este Código de Conduta, Moral e Ética é mais do que um conjunto de diretrizes, e é a expressão dos valores que definem a identidade da Capella Engenharia. Ele orienta nossas atitudes, decisões e relações, servindo como referência contínua para um comportamento íntegro, profissional e responsável. Por ser um documento vivo, está em constante evolução, acompanhando os desafios do nosso tempo e as transformações do setor, sem perder a essência do que acreditamos.",
+        "Esperamos que todos que caminham ao nosso lado — colaboradores, parceiros, fornecedores e clientes — compartilhem desse compromisso. Estar alinhado a esses princípios é contribuir para uma engenharia mais justa, segura e consciente, onde o respeito, a ética e a excelência estejam presentes em cada projeto, em cada escolha e em cada entrega. Juntos, fortalecemos uma cultura baseada em confiança e propósito."
       ]
     }
   },
@@ -79,20 +147,90 @@
       ]
     }
   },
+
+  {
+    "image": "/public/images/svg/home/bloghome/finances.svg",
+    "title": "Planejamento, Custo e Qualidade: o tripé esquecido que transforma obras comuns em projetos de valor",
+    "post": {
+      "date": "01/08/2025",
+      "publication": [
+        "Por: Jéssica Dias",
+        "Engenheira Civil | Planejamento e Orçamento na Capella Engenharia",
+        "No dia a dia da construção civil, principalmente entre empresas de pequeno e médio porte, ainda é comum vermos uma lógica que se repete: vencer a concorrência, fechar o contrato e entregar a obra. Parece suficiente, certo?",
+        "Mas basta um olhar mais atento para perceber que essa conta raramente fecha bem. Projetos são iniciados com orçamentos apertados, cronogramas mal definidos e uma confiança excessiva na experiência empírica da equipe — sem uma estrutura real de planejamento e controle. O resultado? Atrasos, retrabalhos, estouros de orçamento e, quase sempre, um desgaste evitável com o cliente.",
+        "<strong>O problema não está na execução — está na base</strong>",
+        "Muitas vezes a execução até é bem feita, os profissionais no campo dão o seu melhor, mas a ausência de planejamento estratégico e controle de custos transforma o canteiro num cenário reativo. As decisões são tomadas em cima da hora, sem embasamento técnico, e cada nova etapa parece um desafio isolado, desconectado do projeto como um todo.",
+        "E nesse contexto, a qualidade — que deveria ser o norte de qualquer obra — se torna um luxo, quando, na verdade, deveria ser o resultado natural de um processo bem estruturado.",
+        "<strong>Planejar bem é ter respeito pelo cliente e pela própria equipe</strong>",
+        "Um bom planejamento de obra não é só sobre ter um cronograma bonito. É sobre:",
+        "- Entender profundamente o escopo e as expectativas (muitas vezes nem verbalizadas) do cliente.",
+        "- Prever riscos com base em experiências anteriores, sim, mas principalmente com dados concretos.",
+        "- Organizar recursos, alinhar fornecedores, mapear gargalos e construir um caminho realista para cada fase do projeto.",
+        "Quando o planejamento falha, tudo ao redor enfraquece — inclusive a confiança do cliente. O famoso “improviso com criatividade” pode até resolver pontualmente, mas não sustenta entregas consistentes.",
+        "<strong>Custo: o grande vilão… ou aliado, se bem conduzido</strong>",
+        "Outro ponto negligenciado é o controle de custos. Muitas empresas ainda tratam o orçamento inicial como uma formalidade: faz-se uma planilha, envia-se uma proposta e, com sorte, fecha-se o contrato. Depois disso, tudo segue no modo \"vamos ver no caminho\".",
+        "Mas a verdade é que custo mal gerido consome o lucro da obra, o tempo da equipe e a imagem da empresa. Controlar custos não é só cortar onde dá — é antecipar compras, negociar melhor, medir desvios e ajustar rotas sem comprometer a qualidade.",
+        "Obra boa não é só a que cabe no bolso do cliente — é a que respeita o orçamento sem abrir mão da engenharia bem feita.",
+        "<strong>E a qualidade? Ela não se conquista com sorte</strong>",
+        "A qualidade é, na verdade, consequência. Ela acontece quando planejamento e custo estão alinhados. A equipe sabe o que fazer, quando fazer e com quais recursos. Os fornecedores estão em sintonia. O cliente acompanha com clareza. E cada entrega se encaixa no todo, com solidez técnica e estética.",
+        "Não se trata de fazer bonito na entrega final. Trata-se de construir com consciência em cada etapa.",
+        "<strong>Como a Capella Engenharia encara essa equação</strong>",
+        "Na Capella Engenharia, esse tripé — Planejamento, Custo e Qualidade — não é apenas um conceito. É uma prática diária.",
+        "Mesmo atuando com obras de pequeno e médio porte, a Capella estrutura seus projetos com gestores especializados para cada uma dessas áreas. O planejamento é detalhado e acompanhado em tempo real. O orçamento não é só uma planilha de proposta — é um instrumento vivo de gestão. E a qualidade, por consequência, aparece: nos acabamentos, nos prazos, na satisfação do cliente e, principalmente, na ausência de surpresas desagradáveis ao longo da jornada da obra.",
+        "A empresa acredita que cada projeto é uma oportunidade de fazer melhor, com mais inteligência e mais compromisso técnico, e isso se reflete na forma como encara cada contrato — não como mais uma entrega, mas como uma construção de valor duradouro.",
+        "Porque no fim das contas, o cliente não quer apenas a obra pronta. Ele quer confiança, previsibilidade e resultado. E isso só se constrói com base firme — e essa base é planejamento e gestão.",
+        "Saiba mais sobre como a Capella Engenharia transforma boas ideias em obras bem resolvidas: www.capellaeng.com.br",
+        "<strong>Referências para composição deste artigo</strong>",
+        "- PMI – Project Management Institute. Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK®) – 6ª edição. 2017.",
+        "- ABNT NBR ISO 9001:2015. Sistemas de Gestão da Qualidade – Requisitos. ABNT, 2015.",
+        "- CNI – Confederação Nacional da Indústria. Boas Práticas em Gestão de Custos na Construção Civil. Brasília, 2021.",
+        "- KERZNER, Harold. Gerenciamento de Projetos: As melhores práticas. Bookman, 2017.",
+        "- SEBRAE. Indicadores de desempenho e gestão para empresas da construção. https://www.sebrae.com.br"
+      ]
+    }
+  },
+  {
+    "image": "/public/images/svg/home/bloghome/security.svg",
+    "title": "Segurança do Trabalho em Obras de Pequeno e Médio Porte: Por que ainda é negligenciada — e como pode se tornar um diferencial competitivo",
+    "post": {
+      "date": "01/08/2025",
+      "publication": [
+        "Por: Fabio Avelino",
+        "Engenheiro Civil | Engenheiro de Segurança na Capella Engenharia",
+        "É comum observar que, no setor da construção civil, as maiores preocupações em relação à segurança do trabalho são mais evidentes em grandes empreendimentos. Projetos de grande porte geralmente possuem estruturas robustas de compliance, auditorias constantes, fiscalização frequente e, por isso, adotam com mais rigor práticas preventivas para evitar acidentes e riscos à saúde ocupacional.",
+        "Por outro lado, nas obras de pequeno e médio porte, ainda é frequente a crença de que investir em segurança é um custo extra — algo que pode ser deixado de lado, especialmente quando não há uma exigência direta do contratante. Nessas situações, muitas empresas atuam com uma abordagem mínima, por vezes informal, reagindo a problemas somente quando eles ocorrem, e não se antecipando a eles com planejamento.",
+        "Essa postura, além de perigosa, compromete diretamente a qualidade do serviço, os prazos de entrega e a imagem da empresa diante do mercado.",
+        "<strong>Por que segurança é essencial, mesmo (ou principalmente) nas obras menores</strong>",
+        "A aplicação de medidas estruturadas de segurança em obras de pequeno e médio porte traz benefícios que vão muito além do simples cumprimento legal. Entre os principais ganhos estão:",
+        "- Redução de acidentes e afastamentos: Um ambiente seguro diminui o risco de lesões, quedas e doenças ocupacionais.",
+        "- Aumento da produtividade: Ambientes seguros promovem mais confiança entre os trabalhadores, otimizando os processos e reduzindo paralisações.",
+        "- Qualidade da entrega: Equipes bem orientadas e protegidas tendem a cometer menos erros operacionais.",
+        "- Melhor imagem perante o mercado: A adoção consciente de práticas de segurança reforça o compromisso da empresa com responsabilidade social e sustentabilidade.",
+        "- Evita passivos legais e prejuízos financeiros: Acidentes geram ações trabalhistas, interdições e multas que podem inviabilizar financeiramente empresas menores.",
+        "<strong>O cliente também é responsável — mas muitas vezes não sabe disso</strong>",
+        "Em muitos contratos, especialmente no setor privado, os próprios contratantes não exigem medidas claras de segurança, focando apenas em prazos e resultados físicos da obra. Isso abre margem para que empresas sem cultura preventiva omitam investimentos em engenharia de segurança, o que se traduz em riscos não apenas para os trabalhadores, mas também para o próprio contratante — que pode ser responsabilizado solidariamente por acidentes em seu canteiro.",
+        "<strong>Capella Engenharia: Segurança como pilar técnico e ético</strong>",
+        "Sabendo disso, algumas empresas têm seguido um caminho diferente. É o caso da Capella Engenharia, que mesmo atuando com foco em obras de pequeno e médio porte, adota como premissa padrão a presença de avaliações e acompanhamento por Engenheiro de Segurança do Trabalho em todos os seus projetos.",
+        "A missão da Capella vai além da entrega técnica: ela busca obras com zero índice de acidentes, integrando práticas sustentáveis e seguras desde o planejamento até a execução. Cada projeto é encarado não apenas como um desafio de engenharia, mas como um ambiente de cuidado com pessoas, processos e impacto ambiental.",
+        "Essa cultura preventiva e ética se reflete na qualidade dos resultados e na tranquilidade oferecida aos clientes — um diferencial pouco comum entre empresas do mesmo porte.",
+        "Segurança não deveria ser um privilégio das grandes obras. Empresas que compreendem isso entregam mais do que edificações — entregam confiança, responsabilidade e valor duradouro.",
+        "Conheça mais sobre como a Capella Engenharia constrói com inovação, segurança e compromisso em cada detalhe: www.capellaeng.com.br",
+        "<strong>Referências utilizadas na construção do artigo:</strong>",
+        "1. Brasil. Ministério do Trabalho e Emprego. Norma Regulamentadora NR-18 – Condições e Meio Ambiente de Trabalho na Indústria da Construção. Disponível em: https://www.gov.br/trabalho",
+        "2. Associação Brasileira de Normas Técnicas (ABNT). NBR 15575: Edificações Habitacionais – Desempenho. ABNT, 2013.",
+        "3. Fundacentro – Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho. Cartilhas e materiais técnicos sobre segurança em obras civis. Disponível em: https://www.fundacentro.gov.br",
+        "4. DIAS, L. C.; GARCIA, E. G. Segurança do Trabalho na Construção Civil. São Paulo: Ed. SENAI, 2021.",
+        "5. Organização Internacional do Trabalho (OIT). Segurança e saúde no trabalho: fatos e números. Genebra, 2020. Disponível em: https://www.ilo.org",
+        "6. CNI – Confederação Nacional da Indústria. Estudo sobre o impacto da gestão de segurança do trabalho em pequenas e médias empresas da construção civil. Brasília, 2022."
+      ]
+    }
+  },
   {
     "image": "/public/images/svg/home/bloghome/7.svg",
     "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
     "post": {
       "date": "07/06/2025",
       "publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta."
-    }
-  },
-  {
-    "image": "/public/images/svg/home/bloghome/6.svg",
-    "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
-    "post": {
-      "date": "21/04/2025",
-      "publication": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor."
     }
   },
   {

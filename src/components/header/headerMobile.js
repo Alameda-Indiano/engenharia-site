@@ -6,8 +6,8 @@ export class HeaderMobile extends HTMLElement {
       <div class="w-full bg-header-primary text-text-primary px-6 py-2 min-h-16">
         <div class="max-w-screen-xl mx-auto flex justify-between items-center">
           <img
-            src="/public/images/png/logo.png"
-            width="70"
+            src="/public/images/logos/verticalLogoBlack.svg"
+            width="60"
             alt="Logo Capella"
           />
           <button id="mobile-menu-button" class="text-xl">
@@ -47,6 +47,9 @@ export class HeaderMobile extends HTMLElement {
           </li>
           <li>
             <a href="/src/pages/blog/posts/index.html?id=1" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Relatório de Impacto à Proteção de Dados Pessoais (RIPD)</a>
+          </li>
+          <li>
+            <a href="/src/pages/blog/posts/index.html?id=2" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Código de Conduta, Moral e Ética</a>
           </li>
         </ul>
 

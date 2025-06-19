@@ -1,26 +1,18 @@
 [
   {
     "title": "Instalações Elétricas de Baixa Tensão",
-    "description": "Essas instalações são responsáveis por distribuir a energia elétrica em ambientes industriais com segurança e eficiência, alimentando máquinas, equipamentos e sistemas de iluminação."
+    "description": "Projetamos e executamos sistemas elétricos seguros e eficientes para ambientes industriais. Nossas soluções garantem alimentação contínua para máquinas, equipamentos e iluminação, com total conformidade às normas técnicas."
   },
   {
     "title": "Instalações Hidráulicas e Drenagem",
-    "description": "Garantem o fornecimento de água potável, a coleta de águas servidas e a drenagem pluvial. São essenciais para o funcionamento adequado e a preservação das estruturas da edificação."
+    "description": "Desenvolvemos sistemas para abastecimento de água potável e coleta de águas pluviais e servidas. Garantimos funcionalidade e proteção à edificação, assegurando a durabilidade das estruturas."
   },
   {
     "title": "Instalação de Rede de Dutos",
-    "description": "Consiste na implantação de dutos e canalizações por onde passam cabos elétricos, de dados ou fluídos. Garante organização e segurança na infraestrutura industrial."
+    "description": "Executamos redes de dutos para cabos elétricos, dados ou fluidos, com foco em organização e segurança. Nossas soluções estruturam a infraestrutura industrial com eficiência e precisão."
   },
   {
     "title": "Instalações de Incêndio, Hidrantes e Sprinklers",
-    "description": "Esses sistemas são projetados para combater e prevenir incêndios, protegendo vidas e o patrimônio. Incluem alarmes, hidrantes, chuveiros automáticos (sprinklers) e redes de combate."
-  },
-  {
-    "title": "Automação Industrial",
-    "description": "A automação permite controlar processos e máquinas por meio de sistemas eletrônicos e softwares, aumentando a produtividade, reduzindo erros e otimizando recursos."
-  },
-  {
-    "title": "Instalações de Gás",
-    "description": "Realizadas com materiais e técnicas específicas para garantir o transporte seguro de gases industriais ou combustíveis, respeitando todas as normas de segurança."
+    "description": "Oferecemos sistemas completos de combate a incêndio, incluindo alarmes, hidrantes e sprinklers. Garantimos proteção à vida e ao patrimônio, conforme as normas técnicas de segurança contra incêndios."
   }
 ]

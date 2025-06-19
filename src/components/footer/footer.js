@@ -19,16 +19,10 @@ export class FooterCustom extends HTMLElement {
             </span>
           </a>
         </li>
-        <li>
-          <a href="/soluções" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
-            <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-              Soluções
-            </span>
-          </a>
-        </li>
+         
       </ul>
       <ul class="leading-7 space-y-1">
-        <li>
+       <li>
           <a href="/src/pages/blog/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Blog
@@ -36,9 +30,9 @@ export class FooterCustom extends HTMLElement {
           </a>
         </li>
         <li>
-          <a href="/src/pages/corporation/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <a href="/src/pages/contact/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-              Liderança Corporativa
+              Contato
             </span>
           </a>
         </li>
@@ -46,54 +40,55 @@ export class FooterCustom extends HTMLElement {
     </div>
   </div>
 
-  <div class="h-auto flex flex-col gap-4 w-[200px] mt-6 sm:mt-0">
+  <div class="h-auto flex flex-col gap-4 w-[300px] mt-6 sm:mt-0">
     <h2 class="font-bold text-base">Soluções</h2>
     <ul class="leading-7 space-y-1 font-light">
       <li>
         <a href="/src/pages/solutions/civil/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Obra Industrial Civil
+            Guia Básico das Instalações Industriais
           </span>
         </a>
       </li>
       <li>
         <a href="/src/pages/solutions/industrial/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Instalações Industriais
+            Guia Básico de Projetos de Engenharia
           </span>
         </a>
       </li>
       <li>
         <a href="/src/pages/solutions/projects/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Projetos de Engenharia
+           Guia Básico de Industria Civil 
           </span>
         </a>
       </li>
     </ul>
   </div>
 
-  <div class="h-auto flex flex-col gap-4 w-[200px] mt-6 sm:mt-0">
+  <div class="h-auto flex flex-col gap-4 w-[250px] mt-6 sm:mt-0">
     <h2 class="font-bold text-base">Políticas</h2>
     <ul class="leading-7 space-y-1 font-light">
-      <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
-          <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Política de Cookies
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+    <li>
+        <a href="/src/pages/blog/posts/index.html?id=0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
             Política de Privacidade
           </span>
         </a>
       </li>
       <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+        <a href="/src/pages/blog/posts/index.html?id=1" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Termos de uso
+            Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
+          </span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/src/pages/blog/posts/index.html?id=2" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
+           Código de Conduta, Moral e Ética
           </span>
         </a>
       </li>
@@ -103,30 +98,53 @@ export class FooterCustom extends HTMLElement {
   <div class="h-auto flex flex-col gap-4 w-[200px] mt-6 sm:mt-0">
     <h2 class="font-bold text-base">Contatos</h2>
     <ul class="leading-7 space-y-1 font-light">
-      <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
-          <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-            Contato.adm@capellaeng.com.br
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
-          <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
-           (11) 9 1728-4800
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="#" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+     <li>
+  <a
+    target="_blank"
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=contato.adm@capellaeng.com.br&su=Quero%20falar%20com%20a%20Capella&body=Olá%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+    class="group"
+  >
+    <span
+      class="relative transition-colors duration-300 group-hover:text-text-details
+              after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px]
+              after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full"
+    >
+      contato.adm@capellaeng.com.br
+    </span>
+  </a>
+</li>
+
+     <li>
+  <a
+    href="https://wa.me/5511917284800?text=Olá%2C%20quero%20falar%20com%20a%20Capella"
+    target="_blank"
+    class="group"
+  >
+    <span
+      class="relative transition-colors duration-300 group-hover:text-text-details
+              after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px]
+              after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full"
+    >
+      (11) 9 1728-4800
+    </span>
+  </a>
+</li>
+
+        <a  href="https://www.google.com/maps?q=Avenida+Paulista,+1471,+Conj.+511,+Sala+02"
+  target="_blank" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
            Avenida Paulista, 1471 | Conj. 511 | Sala 02          </span>
         </a>
       </li>
     </ul>
+      <div class="flex gap-4">
       <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
         <img src="/public/images/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
       </a>
+       <a href="https://www.instagram.com/capella.eng?utm_source=qr&igsh=ZWd2ZXVmaGVwMzl6" class="transition-transform duration-300 hover:scale-110">
+        <img src="/public/images/icons/instagram.svg" alt="LinkedIn" class="w-6 h-6" />
+      </a>
+      </div>
     </div>
   </div>
 </footer>

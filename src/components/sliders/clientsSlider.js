@@ -40,6 +40,7 @@ export class ClientSlider extends HTMLElement {
           <div class="overflow-hidden">
             <div id="track" class="flex transition-transform duration-500 ease-in-out will-change-transform"></div>
           </div>
+          <div id="pagination" class="flex justify-center mt-6 gap-2"></div>
         </div>
       </section>
     `;
@@ -47,13 +48,17 @@ export class ClientSlider extends HTMLElement {
 
   setup() {
     this.track = this.querySelector("#track");
+    this.pagination = this.querySelector("#pagination");
 
     this.renderSlides();
     this.cloneSlides();
 
     this.totalSlides = this.track.children.length;
     this.slideWidthPercent = 100 / this.itemsPerPage;
+    this.pageCount = Math.ceil(this.clientLogos.length / this.itemsPerPage);
 
+    this.renderDots();
+    this.updateSlider();
     this.startAutoplay();
   }
 
@@ -63,11 +68,11 @@ export class ClientSlider extends HTMLElement {
       .map(
         (src) => `
           <div style="flex: 0 0 ${slideWidth}%"
-               class="flex items-center justify-center p-2">
+               class="flex items-center justify-center p-2 min-h-[120px]">
             <img
               src="${src}"
               alt="Logo cliente"
-              class="max-h-28 md:max-h-28 object-contain transition duration-300"
+              class="max-h-28 object-contain transition duration-300"
             />
           </div>
         `
@@ -79,22 +84,52 @@ export class ClientSlider extends HTMLElement {
     const slideWidth = 100 / this.itemsPerPage;
     this.clientLogos.slice(0, this.itemsPerPage).forEach((src) => {
       const div = document.createElement("div");
-      div.className = "flex items-center justify-center p-2";
+      div.className = "flex items-center justify-center p-2 min-h-[120px]";
       div.style.flex = `0 0 ${slideWidth}%`;
       div.innerHTML = `
-          <img
-            src="${src}"
-            alt="Logo cliente"
-            class="max-h-28 md:max-h-32 object-contain transition duration-300"
-          />
-        `;
+        <img
+          src="${src}"
+          alt="Logo cliente"
+          class="max-h-28 object-contain transition duration-300"
+        />
+      `;
       this.track.appendChild(div);
     });
   }
 
+  renderDots() {
+    this.pagination.innerHTML = "";
+    for (let i = 0; i < this.pageCount; i++) {
+      const dot = document.createElement("button");
+      dot.className = `w-2.5 h-2.5 rounded-full transition-all ${
+        i === 0 ? "bg-gray-600" : "bg-gray-300"
+      }`;
+      dot.addEventListener("click", () => this.goToSlide(i));
+      this.pagination.appendChild(dot);
+    }
+  }
+
+  updateDots() {
+    const dots = this.pagination.querySelectorAll("button");
+    dots.forEach((dot, i) => {
+      dot.className = `w-2.5 h-2.5 rounded-full transition-all ${
+        i === Math.floor(this.index / this.itemsPerPage) % this.pageCount
+          ? "bg-gray-600"
+          : "bg-gray-300"
+      }`;
+    });
+  }
+
   updateSlider() {
-    const offset = (this.index * 100) / this.itemsPerPage;
+    const offset = this.index * this.slideWidthPercent;
     this.track.style.transform = `translateX(-${offset}%)`;
+    this.updateDots();
+  }
+
+  goToSlide(i) {
+    this.index = i * this.itemsPerPage;
+    this.track.style.transition = "transform 0.5s ease-in-out";
+    this.updateSlider();
   }
 
   startAutoplay() {
@@ -110,7 +145,7 @@ export class ClientSlider extends HTMLElement {
           this.updateSlider();
         }, 500);
       }
-    }, 3000);
+    }, 5000);
   }
 
   handleResize() {

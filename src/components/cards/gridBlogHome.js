@@ -12,41 +12,40 @@ export class BlogCardGrid extends HTMLElement {
         return;
       }
 
-      // Pega apenas os primeiros 6 cards
-      const limitedCards = blogCards.slice(0, 6);
+      const limitedCards = blogCards.slice(3, 9); // Ignora os 3 primeiros
 
       const cards = limitedCards
         .map(
           (item, i) => `
-          <a href="/src/pages/blog/posts/index.html?id=${i}" class="block cursor-pointer w-full">
-            <div class="relative group overflow-hidden bg-white" style="aspect-ratio: 4 / 3;">
-              <img
-                src="${item.image}"
-                alt="${item.title}"
-                class="absolute inset-0 w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
-              />
-              <div
-                class="absolute inset-0 bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-60"
-              ></div>
-              <div class="absolute inset-0 flex items-center justify-center">
-                <div
-                  class="opacity-0 group-hover:opacity-100 transition-opacity duration-300
-                         px-6 py-4 bg-transparent max-w-[340px] text-center"
-                  style="
-                    border: 4px solid;
-                    border-image-source: linear-gradient(to right, #5FAFF1, #40C1DD);
-                    border-image-slice: 1;
-                    border-radius: 0.75rem;
-                  "
-                >
-                  <p class="text-white font-bold text-base md:text-[17px] leading-snug">
-                    ${item.title}
-                  </p>
-                </div>
-              </div>
+      <a href="/src/pages/blog/posts/index.html?id=${i + 3}" class="block cursor-pointer w-full">
+        <div class="relative group overflow-hidden bg-white" style="aspect-ratio: 4 / 3;">
+          <img
+            src="${item.image}"
+            alt="${item.title}"
+            class="absolute inset-0 w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
+          />
+          <div
+            class="absolute inset-0 bg-black opacity-0 transition-opacity duration-500 group-hover:opacity-60"
+          ></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div
+              class="opacity-0 group-hover:opacity-100 transition-opacity duration-300
+                     px-6 py-4 bg-transparent max-w-[340px] text-center"
+              style="
+                border: 4px solid;
+                border-image-source: linear-gradient(to right, #5FAFF1, #40C1DD);
+                border-image-slice: 1;
+                border-radius: 0.75rem;
+              "
+            >
+              <p class="text-white font-bold text-base md:text-[17px] leading-snug">
+                ${item.title}
+              </p>
             </div>
-          </a>
-        `
+          </div>
+        </div>
+      </a>
+    `
         )
         .join("");
 

@@ -98,7 +98,7 @@ class ContactForm extends HTMLElement {
       const fone = encodeURIComponent(phoneEl.value.trim());
       const assunto = encodeURIComponent(subjectEl.value.trim());
 
-      const numeroDestino = "5511987166725";
+      const numeroDestino = "5511917284800";
 
       const mensagem = `
 *Novo contato via site*%0A

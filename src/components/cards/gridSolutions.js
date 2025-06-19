@@ -20,40 +20,31 @@ export class SolutionGrid extends HTMLElement {
       if (!Array.isArray(cards)) throw new Error("JSON inválido");
 
       this.innerHTML = `
-        <div class="px-8 lg:px-20 py-8">
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            ${cards
-              .map(
-                ({ title, description }) => `
-              <div
-                class="bg-gradient-to-r
-                       from-gradient-lines-one
-                       to-gradient-lines-two
-                       p-0.5
-                       rounded-lg"
-              >
-                <div
-                  class="bg-primary
-                         rounded-[0.375rem]
-                         p-6
-                         h-full
-                         flex
-                         flex-col"
-                >
-                  <h3 class="text-gradient-lines-one font-semibold text-lg mb-2">
-                    ${title}
-                  </h3>
-                  <p class="text-text-primary text-sm leading-relaxed flex-1">
-                    ${description}
-                  </p>
-                </div>
-              </div>
-            `
-              )
-              .join("")}
+  <div class="px-8 lg:px-20 py-8">
+    <div class="flex flex-wrap justify-center gap-8">
+      ${cards
+        .map(
+          ({ title, description }) => `
+        <div
+          class="bg-gradient-to-r from-gradient-lines-one to-gradient-lines-two p-0.5 rounded-lg"
+        >
+          <div
+            class="bg-primary rounded-[0.375rem] p-6 w-[360px] h-[300px] flex flex-col justify-center items-center text-center"
+          >
+            <h3 class="text-gradient-lines-one font-semibold text-lg mb-1">
+              ${title}
+            </h3>
+            <p class="text-text-primary text-sm leading-relaxed">
+              ${description}
+            </p>
           </div>
         </div>
-      `;
+      `
+        )
+        .join("")}
+    </div>
+  </div>
+`;
     } catch (err) {
       console.error("Erro ao carregar soluções:", err);
       this.innerHTML = `
