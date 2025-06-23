@@ -1,11 +1,13 @@
-import "./circles.js";
+import "./circles.js?v=2.0.0";
 
 export class CircleSlider extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `<p class="text-center text-sm text-white">Carregando carrossel...</p>`;
 
     try {
-      const res = await fetch("./public/config/homepage/circleSlider.json");
+      const res = await fetch(
+        "public/config/homepage/circleSlider.json?v=2.0.0"
+      );
       this.slides = await res.json();
 
       if (!Array.isArray(this.slides)) throw new Error("Dados inválidos");

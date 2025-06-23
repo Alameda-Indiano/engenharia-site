@@ -1,33 +1,24 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-...=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="public/styles/tailwind.css" />
-    <link rel="icon" href="/public/images/favicon.ico" type="image/x-icon" />
-    <title>Capella Engenharia</title>
-  </head>
 
-  <body class="bg-primary">
-    <header-and-footer>
-      <section class="flex flex-col lg:flex-row">
-        <div class="w-full lg:w-[55%] flex justify-center items-center">
-          <img
-            src="public/images/svg/home/others/engineerHome.svg"
-            alt="Engenheiro com cidade"
-            class="max-w-full xl:h-[90vh] max-h-[90vh] object-contain"
-          />
-        </div>
-        <div
-          class="w-full h-20 bg-shadow-default block lg:hidden mb-[10%]"
-        ></div>
+<head>
+	<meta charset="UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		integrity="sha512-...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="public/styles/tailwind.css?v=2.0.0" />
+	<title>Capella Engenharia</title>
+</head>
+
+<body class="bg-primary">
+	<header-and-footer>
+		<section class="flex flex-col lg:flex-row">
+			<div class="w-full lg:w-[55%] flex justify-center items-center">
+				<img src="public/images/svg/home/others/engineerHome.svg?v=2.0.0" alt="Engenheiro com cidade"
+					class="max-w-full xl:h-[90vh] max-h-[90vh] object-contain" />
+			</div>
+			<div class="w-full h-20 bg-shadow-default block lg:hidden mb-[10%]"></div>
 
         <div
           class="w-full lg:w-[50%] flex flex-col justify-center items-center gap-14 text-center lg:text-center mb-[10%] lg:mb-0"
@@ -45,22 +36,15 @@
             </h1>
           </div>
 
-          <button-gradient
-            href="/src/pages/solutions/civil/index.html"
-            text="VER MAIS!"
-          ></button-gradient>
-        </div>
-
-        <div class="w-full h-20 bg-shadow-default block lg:hidden"></div>
-      </section>
-
-      <section class="relative w-full">
-        <div
-          class="w-full h-[350px] bg-cover bg-center bg-no-repeat"
-          style="
-            background-image: url(&quot;public/images/svg/home/others/bannerHome.svg&quot;);
-          "
-        ></div>
+				<button-gradient href="/src/pages/solutions/civil/index.html?v=2.0.0"
+					text="VER MAIS!"></button-gradient>
+			</div>
+			</div>
+			<div class="w-full h-20 bg-shadow-default block lg:hidden"></div>
+		</section>
+		<section class="relative w-full">
+			<div class="w-full h-[350px] bg-cover bg-center bg-no-repeat"
+				style="background-image: url('public/images/svg/home/others/bannerHome.svg?v=2.0.0')"></div>
 
         <div class="relative z-10 max-w-4xl mx-auto -mt-32 px-4">
           <div class="bg-white rounded shadow-md p-10">
@@ -86,123 +70,93 @@
               tendências que movem o mundo.
             </p>
 
-            <ul class="space-y-6 font-bold text-[15px] text-text-primary">
-              <li class="flex items-center gap-3">
-                <div class="w-[30px] flex justify-center items-center">
-                  <img
-                    src="public/images/icons/development.svg"
-                    alt="Development"
-                    class="w-[30px] h-[30px]"
-                  />
-                </div>
-                <span>Desenvolvimento Contínuo</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <div class="w-[30px] flex justify-center items-center">
-                  <img
-                    src="public/images/icons/integrity.svg"
-                    alt="Integrity"
-                    class="w-[30px] h-[30px]"
-                  />
-                </div>
-                <span>Agimos com integridade em cada projeto e parceria.</span>
-              </li>
-              <li class="flex items-center gap-3">
-                <div class="w-[30px] flex justify-center items-center">
-                  <img
-                    src="public/images/icons/environmental.svg"
-                    alt="Environmental"
-                    class="w-[30px] h-[30px]"
-                  />
-                </div>
-                <span>Compromisso Ambiental</span>
-              </li>
-            </ul>
+					<ul class="space-y-6 font-bold text-[15px] text-text-primary">
+						<li class="flex items-center gap-3">
+							<div class="w-[30px] flex justify-center items-center">
+								<img src="public/images/icons/development.svg?v=2.0.0" alt="Development"
+									class="w-[30px] h-[30px]" />
+							</div>
+							<span>Desenvolvimento Contínuo</span>
+						</li>
+						<li class="flex items-center gap-3">
+							<div class="w-[30px] flex justify-center items-center">
+								<img src="public/images/icons/integrity.svg?v=2.0.0" alt="Integrity"
+									class="w-[30px] h-[30px]" />
+							</div>
+							<span>Agimos com integridade em cada projeto e parceria.</span>
+						</li>
+						<li class="flex items-center gap-3">
+							<div class="w-[30px] flex justify-center items-center">
+								<img src="public/images/icons/environmental.svg?v=2.0.0" alt="Environmental"
+									class="w-[30px] h-[30px]" />
+							</div>
+							<span>Compromisso Ambiental</span>
+						</li>
+					</ul>
 
-            <div class="flex justify-end mt-10 mb-4">
-              <a
-                href="/src/pages/about/index.html"
-                class="relative inline-block text-text-details font-medium group"
-              >
-                <span
-                  class="transition-colors duration-300 group-hover:text-text-details"
-                >
-                  Saiba Mais
-                </span>
-                <span
-                  class="absolute left-0 -bottom-0.5 w-0 h-[3px] bg-text-details transition-all duration-300 group-hover:w-full"
-                ></span>
-              </a>
-            </div>
-          </div>
-        </div>
+					<div class="flex justify-end mt-10 mb-4">
+						<a href="/src/pages/about/index.html?v=2.0.0"
+							class="relative inline-block text-text-details font-medium group">
+							<span class="transition-colors duration-300 group-hover:text-text-details">
+								Saiba Mais
+							</span>
+							<span
+								class="absolute left-0 -bottom-0.5 w-0 h-[3px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="mt-20 mb-20">
+				<circle-slider></circle-slider>
+			</div>
+		</section>
+		<section>
+			<div class="w-full bg-[#1E507B] flex flex-col lg:flex-row justify-between items-center mb-20">
+				<div
+					class="w-full text-white flex flex-col gap-10 items-center text-center px-6 py-10 lg:max-w-[60%] lg:items-start lg:text-left lg:px-16">
+					<h2 class="text-4xl font-bold">Fale Conosco!</h2>
+					<p class="text-[16px] font-medium">
+						Na Capella Engenharia oferecemos soluções completas em obras
+						industriais civis, instalações industriais, e projetos de
+						engenharia. Cada projeto é desenvolvido por uma equipe técnica
+						altamente qualificada, com atenção aos detalhes, prazos e ao
+						impacto sustentável de nossas ações. Seja qual for o porte ou o
+						segmento do seu empreendimento, a Capella está preparada para
+						construir junto com você.
+					</p>
+					<div class="pt-10">
+						<a href="/src/pages/contact/index.html?v=2.0.0">
+							<button-white text="Entre em Contato!"></button-white>
+						</a>
+					</div>
+				</div>
 
-        <div class="mt-20 mb-20">
-          <circle-slider></circle-slider>
-        </div>
-      </section>
+				<div class="w-full lg:w-auto flex justify-end">
+					<img src="public/images/svg/home/others/engineerWoman.svg?v=2.0.0" alt="Engenheira"
+						class="h-auto lg:max-h-[500px] object-contain" />
+				</div>
+			</div>
+			<div>
+				<client-slider></client-slider>
+			</div>
+			<team-member-card></team-member-card>
+		</section>
+		<section class="pt-28 flex flex-col gap-36">
+			<div class="flex flex-col items-center justify-center gap-16 ">
+				<info-tag text="Novidades e Inovações"></info-tag>
+				<h1 class="text-4xl font-bold text-text-primary">Blog <Span class="text-text-details">Capella
+						Engenharia</Span></h1>
+			</div>
+			<div>
+				<blog-card-grid></blog-card-grid>
+				<div class="w-full bg-shadow-default h-40 flex items-center justify-center">
+					<button-gradient href="/src/pages/blog/index.html?v=2.0.0" text="VER TODAS"></button-gradient>
+				</div>
+			</div>
+		</section>
+	</header-and-footer>
 
-      <section>
-        <div
-          class="w-full bg-gradient-to-r to-gradient-banner-one from-gradient-banner-two flex flex-col lg:flex-row justify-between items-center mb-20"
-        >
-          <div
-            class="w-full text-white flex flex-col gap-10 items-center text-center px-6 py-10 lg:max-w-[60%] lg:items-start lg:text-left lg:px-16"
-          >
-            <h2 class="text-4xl font-bold">Fale Conosco!</h2>
-            <p class="text-[16px] font-medium">
-              Na Capella Engenharia, entregamos soluções completas em obras
-              civis industriais, instalações técnicas e projetos de engenharia
-              personalizados. Cada projeto é conduzido por uma equipe técnica
-              altamente qualificada, com foco nos detalhes, no cumprimento
-              rigoroso de prazos e na responsabilidade socioambiental de cada
-              ação. Independentemente do porte ou segmento do seu
-              empreendimento, a Capella está pronta para construir ao seu lado —
-              com inovação, precisão e compromisso.
-            </p>
-            <div class="pt-10">
-              <a href="/src/pages/contact/index.html">
-                <button-white text="Entre em Contato!"></button-white>
-              </a>
-            </div>
-          </div>
+	<script type="module" src="src/pages/home/home.js?v=2.0.0"></script>
+</body>
 
-          <div class="w-full lg:w-auto flex justify-end">
-            <img
-              src="public/images/svg/home/others/engineerWoman.svg"
-              alt="Engenheira"
-              class="h-auto lg:max-h-[500px] object-contain"
-            />
-          </div>
-        </div>
-        <div>
-          <client-slider></client-slider>
-        </div>
-        <team-member-card></team-member-card>
-      </section>
-
-      <section class="pt-28 flex flex-col gap-36">
-        <div class="flex flex-col items-center justify-center gap-16">
-          <info-tag text="Novidades e Inovações"></info-tag>
-          <h1 class="text-4xl font-bold text-text-primary">
-            Blog
-            <span class="text-text-details">Capella Engenharia</span>
-          </h1>
-        </div>
-        <div>
-          <blog-card-grid></blog-card-grid>
-          <div
-            class="w-full bg-shadow-default h-40 flex items-center justify-center"
-          >
-            <button-gradient
-              href="/src/pages/blog/index.html"
-              text="VER TODAS"
-            ></button-gradient>
-          </div>
-        </div>
-      </section>
-    </header-and-footer>
-
-    <script type="module" src="src/pages/home/home.js"></script>
-  </body>
 </html>

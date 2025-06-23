@@ -3,7 +3,7 @@ export class StaffSection extends HTMLElement {
     this.innerHTML = `<p class="text-center">Carregando equipe...</p>`;
 
     try {
-      const res = await fetch("public/config/homepage/staff.json");
+      const res = await fetch("public/config/homepage/staff.json?v=2.0.0");
       const staffConfig = await res.json();
       if (!Array.isArray(staffConfig)) throw new Error("Dados inválidos");
 
@@ -28,30 +28,23 @@ export class StaffSection extends HTMLElement {
       </div>
 
       <!-- face traseira -->
-     <!-- face traseira -->
-<div
-  class="absolute inset-0 bg-white rounded-2xl shadow-md p-4
-         flex items-center justify-center
-         [transform:rotateY(180deg)] [backface-visibility:hidden]"
->
-  <div class="flex flex-col justify-between items-center h-full w-full max-h-[320px]">
-    <!-- Área de texto com scroll invisível -->
-    <div class="w-full px-2 flex-1 overflow-y-auto no-scrollbar text-justify text-text-default text-sm leading-relaxed whitespace-pre-line">
-      ${summary || "Sem resumo disponível."}
-    </div>
-
-    <!-- Botão LinkedIn logo abaixo -->
-    <a
-      href="${linkedinUrl}"
-      target="_blank"
-      aria-label="LinkedIn"
-      class="mt-4 transition-transform duration-200 hover:scale-110"
-    >
-      <img width="22" src="public/images/icons/linkedin.svg" alt="LinkedIn" />
-    </a>
-  </div>
-</div>
-
+      <div
+        class="absolute inset-0 bg-white rounded-2xl shadow-md p-4
+               flex flex-col items-center justify-center gap-8 [transform:rotateY(180deg)]
+               [backface-visibility:hidden]"
+      >
+        <p class="text-center text-text-default px-4">
+          ${summary || "Sem resumo disponível."}
+        </p>
+        <a
+          href="${linkedinUrl}"
+          target="_blank"
+          aria-label="LinkedIn"
+          class="transition-transform duration-200 hover:scale-110"
+        >
+          <img width="22" src="public/images/icons/linkedin.svg?v=2.0.0" alt="LinkedIn"/>
+        </a>
+      </div>
     </div>
   </div>
   `

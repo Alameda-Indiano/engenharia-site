@@ -6,14 +6,14 @@ export class FooterCustom extends HTMLElement {
     <div class="flex gap-10 font-light">
       <ul class="leading-7 space-y-1">
         <li>
-          <a href="/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <a href="/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Home
             </span>
           </a>
         </li>
         <li>
-          <a href="/src/pages/about/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <a href="/src/pages/about/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Sobre
             </span>
@@ -22,15 +22,15 @@ export class FooterCustom extends HTMLElement {
          
       </ul>
       <ul class="leading-7 space-y-1">
-       <li>
-          <a href="/src/pages/blog/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+        <li>
+          <a href="/src/pages/blog/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Blog
             </span>
           </a>
         </li>
         <li>
-          <a href="/src/pages/contact/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <a href="/src/pages/corporation/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Contato
             </span>
@@ -44,21 +44,21 @@ export class FooterCustom extends HTMLElement {
     <h2 class="font-bold text-base">Soluções</h2>
     <ul class="leading-7 space-y-1 font-light">
       <li>
-        <a href="/src/pages/solutions/civil/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+        <a href="/src/pages/solutions/civil/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
             Guia Básico das Instalações Industriais
           </span>
         </a>
       </li>
       <li>
-        <a href="/src/pages/solutions/industrial/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+        <a href="/src/pages/solutions/industrial/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
             Guia Básico de Projetos de Engenharia
           </span>
         </a>
       </li>
       <li>
-        <a href="/src/pages/solutions/projects/index.html" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+        <a href="/src/pages/solutions/projects/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
           <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
            Guia Básico de Industria Civil 
           </span>
@@ -139,12 +139,8 @@ export class FooterCustom extends HTMLElement {
     </ul>
       <div class="flex gap-4">
       <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
-        <img src="/public/images/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
+        <img src="/public/images/icons/linkedin.svg?v=2.0.0" alt="LinkedIn" class="w-6 h-6" />
       </a>
-       <a href="https://www.instagram.com/capella.eng?utm_source=qr&igsh=ZWd2ZXVmaGVwMzl6" class="transition-transform duration-300 hover:scale-110">
-        <img src="/public/images/icons/instagram.svg" alt="LinkedIn" class="w-6 h-6" />
-      </a>
-      </div>
     </div>
   </div>
 </footer>

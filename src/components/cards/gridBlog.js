@@ -2,7 +2,9 @@ export class BlogGrid extends HTMLElement {
   async connectedCallback() {
     this.innerHTML = `<p class="text-center">Carregando conteúdos...</p>`;
     try {
-      const res = await fetch("../../../public/config/blog/blogSection.json");
+      const res = await fetch(
+        "../../../public/config/blog/blogSection.json?v=2.0.0"
+      );
       const posts = await res.json();
 
       if (!Array.isArray(posts)) {
@@ -141,7 +143,7 @@ export class BlogGrid extends HTMLElement {
                 ${snippet}
               </p>
               <a
-                href="/src/pages/blog/posts/index.html?id=${realIndex + 3}"
+                href="/src/pages/blog/posts/index.html?id=${realIndex}&v=2.0.0"
                 class="mt-auto text-text-details font-medium"
               >
                 Saiba Mais

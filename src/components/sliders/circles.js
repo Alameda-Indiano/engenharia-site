@@ -12,8 +12,8 @@ export class CircleFeature extends HTMLElement {
     this.innerHTML = `
       <div class="flex flex-col items-center text-center">
         <div
-          class="w-[160px] h-[160px] bg-no-repeat bg-center bg-cover rounded-full flex items-center justify-center overflow-hidden"
-          style="background-image: url('./public/images/svg/home/others/circle.svg');"
+          class="w-[160px] h-[160px] bg-no-repeat bg-center bg-cover rounded-full flex items-center justify-center"
+          style="background-image: url('public/images/svg/home/others/circle.svg?v=2.0.0');"
         >
           ${iconHtml}
         </div>

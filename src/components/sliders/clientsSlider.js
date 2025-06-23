@@ -3,7 +3,9 @@ export class ClientSlider extends HTMLElement {
     this.innerHTML = `<p class="text-center text-sm text-gray-500">Carregando logos de clientes...</p>`;
 
     try {
-      const res = await fetch("public/config/homepage/clientLogos.json");
+      const res = await fetch(
+        "public/config/homepage/clientLogos.json?v=2.0.0"
+      );
       this.clientLogos = await res.json();
 
       if (!Array.isArray(this.clientLogos)) throw new Error("Dados inválidos");
