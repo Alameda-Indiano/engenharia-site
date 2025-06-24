@@ -30,7 +30,7 @@ export class FooterCustom extends HTMLElement {
           </a>
         </li>
         <li>
-          <a href="/src/pages/corporation/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
+          <a href="/src/pages/contact/index.html?v=2.0.0" class="group relative inline-block cursor-pointer transition-colors duration-300 hover:text-text-details">
             <span class="relative after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-text-details after:transition-all after:duration-300 group-hover:after:w-full">
               Contato
             </span>
@@ -141,8 +141,12 @@ export class FooterCustom extends HTMLElement {
       <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
         <img src="/public/images/icons/linkedin.svg?v=2.0.0" alt="LinkedIn" class="w-6 h-6" />
       </a>
+      <a href="https://www.instagram.com/capella.eng?utm_source=qr&igsh=ZWd2ZXVmaGVwMzl6" class="transition-transform duration-300 hover:scale-110">
+        <img src="/public/images/icons/instagram.svg?v=2.0.0" alt="LinkedIn" class="w-6 h-6" />
+      </a>
     </div>
   </div>
+  
 </footer>
 
 <div class="w-full bg-primary py-2 text-center text-sm text-text-primary">

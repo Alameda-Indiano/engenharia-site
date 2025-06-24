@@ -6,8 +6,8 @@ export class HeaderMobile extends HTMLElement {
       <div class="w-full bg-header-primary text-text-primary px-6 py-2 min-h-16">
         <div class="max-w-screen-xl mx-auto flex justify-between items-center">
           <img
-            src="/public/images/png/logo.png?v=2.0.0"
-            width="70"
+            src="/public/images/logos/verticalLogoBlack.svg?v=2.0.0"
+            width="64"
             alt="Logo Capella"
           />
           <button id="mobile-menu-button" class="text-xl">

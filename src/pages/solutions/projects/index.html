@@ -1,30 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obra industrial Civil - Capella Engenharia</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/public/images/favicon.ico?v=2.0.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-...=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../../public/styles/tailwind.css?v=2.0.0"
+    />
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Obra industrial Civil - Capella Engenharia</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-		integrity="sha512-...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="../../../../public/styles/tailwind.css?v=2.0.0" />
-</head>
+  <body>
+    <header-and-footer>
+      <section>
+        <image-text-section
+          img-src="../../../../public/images/svg/solutions/projects.svg?v=2.0.0"
+          text="Projetos de Engenharia"
+        ></image-text-section>
+      </section>
+      <section>
+        <text-guide
+          prefix="Guia Básico de"
+          highlight="Projetos de Engenharia"
+          subtitle="Um projeto de engenharia é um conjunto de estudos, cálculos, desenhos e documentos técnicos elaborados com o objetivo de planejar e orientar a construção ou a implementação de uma obra, sistema ou produto. Ele é a base para transformar uma ideia em algo concreto, funcional e seguro, respeitando critérios técnicos, econômicos e ambientais."
+        ></text-guide>
+        <solution-grid
+          config-src="../../../../public/config/solutions/projects.json?v=2.0.0"
+        ></solution-grid>
+      </section>
+      <banner-section></banner-section>
+    </header-and-footer>
 
-<body>
-	<header-and-footer>
-		<section>
-			<image-text-section img-src="../../../../public/images/svg/solutions/projects.svg?v=2.0.0"
-				text="Projetos de Engenharia"></image-text-section>
-		</section>
-		<section>
-			<text-guide prefix="Guia Básico de" highlight="Projetos de Engenharia"
-				subtitle="Um projeto de engenharia é um conjunto de estudos, cálculos, desenhos e documentos técnicos elaborados com o objetivo de planejar e orientar a construção ou a implementação de uma obra, sistema ou produto. Ele é a base para transformar uma ideia em algo concreto, funcional e seguro, respeitando critérios técnicos, econômicos e ambientais."></text-guide>
-			<solution-grid config-src="../../../../public/config/solutions/projects.json?v=2.0.0"></solution-grid>
-		</section>
-		<banner-section></banner-section>
-	</header-and-footer>
-
-	<script type="module" src="./projects.js?v=2.0.0"></script>
-</body>
-
+    <script type="module" src="./projects.js?v=2.0.0"></script>
+  </body>
 </html>

@@ -12,12 +12,15 @@ export class BlogCardGrid extends HTMLElement {
         return;
       }
 
-      const limitedCards = blogCards.slice(3, 9); // Ignora os 3 primeiros
+      const limitedCards = blogCards.slice(3, 9).map((item, idx) => ({
+        ...item,
+        originalIndex: idx + 3,
+      }));
 
       const cards = limitedCards
         .map(
-          (item, i) => `
-          <a href="/src/pages/blog/posts/index.html?id=${i}&v=2.0.0" class="block cursor-pointer w-full">
+          (item) => `
+          <a href="/src/pages/blog/posts/index.html?id=${item.originalIndex}&v=2.0.0" class="block cursor-pointer w-full">
             <div class="relative group overflow-hidden bg-white" style="aspect-ratio: 4 / 3;">
               <img
                 src="${item.image}"

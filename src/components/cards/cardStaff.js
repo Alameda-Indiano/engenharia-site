@@ -33,9 +33,9 @@ export class StaffSection extends HTMLElement {
                flex flex-col items-center justify-center gap-8 [transform:rotateY(180deg)]
                [backface-visibility:hidden]"
       >
-        <p class="text-center text-text-default px-4">
-          ${summary || "Sem resumo disponível."}
-        </p>
+       <div class="overflow-y-auto max-h-[190px] no-scrollbar">
+  ${summary || "Sem resumo disponível."}
+</div>
         <a
           href="${linkedinUrl}"
           target="_blank"

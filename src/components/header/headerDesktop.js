@@ -5,8 +5,8 @@ export class HeaderCustom extends HTMLElement {
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
-            src="/public/images/png/logo.png?v=2.0.0"
-            width="70"
+            src="/public/images/logos/verticalLogoBlack.svg?v=2.0.0"
+            width="64"
             alt="Logotipo Capella Engenharia"
           />
         </div>
@@ -26,20 +26,20 @@ export class HeaderCustom extends HTMLElement {
                 <i class="fas fa-angle-down transition duration-300"></i>
               </div>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
-              <ul id="sub-menu-solucoes" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3">
+              <ul id="sub-menu-solucoes" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-[350px] z-50 text-left space-y-3">
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/civil/index.html?v=2.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Obra Industrial Civil
+                      Guia Básico de Industria Civil para Atuação da Capella Engenharia
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/industrial/index.html?v=2.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Instalações Industriais
+                      Guia Básico das Instalações Industriais para Atuação da Capella Engenharia
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
                   <a href="/src/pages/solutions/projects/index.html?v=2.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
-                    Projetos de Engenharia
+                      Guia Básico de Projetos de Engenharia para Atuação da Capella Engenharia
                   </a>
                 </li>
               </ul>
