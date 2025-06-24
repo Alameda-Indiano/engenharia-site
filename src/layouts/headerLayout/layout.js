@@ -1,12 +1,12 @@
-import "../../components/footer/footer.js?v=2.0.0";
-import "../../components/header/headerDesktop.js?v=2.0.0";
-import "../../components/header/headerMobile.js?v=2.0.0";
+import "../../components/footer/footer.js?v=3.0.0";
+import "../../components/header/headerDesktop.js?v=3.0.0";
+import "../../components/header/headerMobile.js?v=3.0.0";
 
 export class LayoutHeaderAndFooter extends HTMLElement {
-	connectedCallback() {
-		const content = this.innerHTML;
+  connectedCallback() {
+    const content = this.innerHTML;
 
-		this.innerHTML = `
+    this.innerHTML = `
       <header-desktop></header-desktop>
       <header-mobile></header-mobile>
       <main class="pt-[70px] lg:pt-13">
@@ -14,7 +14,7 @@ export class LayoutHeaderAndFooter extends HTMLElement {
       </main>
       <custom-footer></custom-footer>
     `;
-	}
+  }
 }
 
 customElements.define("header-and-footer", LayoutHeaderAndFooter);

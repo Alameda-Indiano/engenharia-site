@@ -3,7 +3,7 @@ export class BlogGrid extends HTMLElement {
     this.innerHTML = `<p class="text-center">Carregando conteúdos...</p>`;
     try {
       const res = await fetch(
-        "../../../public/config/blog/blogSection.json?v=2.0.0"
+        "../../../public/config/blog/blogSection.json?v=3.0.0"
       );
       const posts = await res.json();
 
@@ -143,7 +143,7 @@ export class BlogGrid extends HTMLElement {
                 ${snippet}
               </p>
               <a
-                href="/src/pages/blog/posts/index.html?id=${realIndex}&v=2.0.0"
+                href="/src/pages/blog/posts/index.html?id=${realIndex}&v=3.0.0"
                 class="mt-auto text-text-details font-medium"
               >
                 Saiba Mais
