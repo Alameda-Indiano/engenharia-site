@@ -4,7 +4,7 @@ export class ClientSlider extends HTMLElement {
 
     try {
       const res = await fetch(
-        "/public/config/homepage/clientLogos.json?v=3.0.0"
+        "/public/config/homepage/clientLogos.json?v=4.0.0"
       );
       this.clientLogos = await res.json();
       if (!Array.isArray(this.clientLogos)) throw new Error("Dados inválidos");

@@ -1,6 +1,6 @@
 [
   {
-    "image": "/public/images/svg/policies/privacity.svg?v=3.0.0",
+    "image": "/public/images/svg/policies/privacity.svg?v=4.0.0",
     "title": "Política de Privacidade - LGPD",
     "post": {
       "date": "07/06/2025",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "image": "/public/images/svg/policies/report.svg?v=3.0.0",
+    "image": "/public/images/svg/policies/report.svg?v=4.0.0",
     "title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
     "post": {
       "date": "07/06/2025",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "image": "/public/images/svg/policies/codeOfConduct.svg?v=3.0.0",
+    "image": "/public/images/svg/policies/codeOfConduct.svg?v=4.0.0",
     "title": "Código de Conduta, Moral e Ética: Compromisso com a Integridade e o Respeito",
     "post": {
       "date": "07/06/2025",
@@ -110,7 +110,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/kpis.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/kpis.svg?v=4.0.0",
     "title": "Indicadores de Desempenho: A Nova Engenharia Orientada a Resultados",
     "post": {
       "date": "07/06/2025",
@@ -130,7 +130,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=4.0.0",
     "title": "Método Grooved para Sistemas de Combate a Incêndio: Agilidade, Segurança e Excelência Técnica",
     "post": {
       "date": "07/06/2025",
@@ -149,7 +149,7 @@
   },
 
   {
-    "image": "/public/images/svg/home/bloghome/finances.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/finances.svg?v=4.0.0",
     "title": "Planejamento, Custo e Qualidade: o tripé esquecido que transforma obras comuns em projetos de valor",
     "post": {
       "date": "01/08/2025",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/security.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/security.svg?v=4.0.0",
     "title": "Segurança do Trabalho em Obras de Pequeno e Médio Porte: Por que ainda é negligenciada — e como pode se tornar um diferencial competitivo",
     "post": {
       "date": "01/08/2025",
@@ -226,7 +226,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/7.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/7.svg?v=4.0.0",
     "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
     "post": {
       "date": "07/06/2025",
@@ -234,7 +234,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/6.svg?v=3.0.0",
+    "image": "/public/images/svg/home/bloghome/6.svg?v=4.0.0",
     "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
     "post": {
       "date": "21/04/2025",

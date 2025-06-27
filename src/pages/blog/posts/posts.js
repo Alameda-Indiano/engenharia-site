@@ -1,5 +1,5 @@
-import "/src/components/buttons/buttomGradient.js?v=3.0.0";
-import "/src/layouts/headerLayout/layout.js?v=3.0.0";
+import "/src/components/buttons/buttomGradient.js?v=4.0.0";
+import "/src/layouts/headerLayout/layout.js?v=4.0.0";
 
 (async () => {
   const params = new URLSearchParams(window.location.search);
@@ -9,7 +9,7 @@ import "/src/layouts/headerLayout/layout.js?v=3.0.0";
   if (idParam === null || isNaN(index) || index < 0) return;
 
   try {
-    const res = await fetch("/public/config/blog/blogSection.json?v=3.0.0");
+    const res = await fetch("/public/config/blog/blogSection.json?v=4.0.0");
     const posts = await res.json();
     if (!Array.isArray(posts) || index >= posts.length) return;
 

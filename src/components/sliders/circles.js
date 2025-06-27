@@ -13,7 +13,7 @@ export class CircleFeature extends HTMLElement {
       <div class="flex flex-col items-center text-center">
         <div
           class="w-[160px] h-[160px] bg-no-repeat bg-center bg-cover rounded-full flex items-center justify-center"
-          style="background-image: url('public/images/svg/home/others/circle.svg?v=3.0.0');"
+          style="background-image: url('public/images/svg/home/others/circle.svg?v=4.0.0');"
         >
           ${iconHtml}
         </div>

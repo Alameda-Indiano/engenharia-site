@@ -1,7 +1,7 @@
 class EditableCard extends HTMLElement {
   connectedCallback() {
     const iconSrc =
-      this.getAttribute("icon") || "/public/images/icons/eye.svg?v=3.0.0";
+      this.getAttribute("icon") || "/public/images/icons/eye.svg?v=4.0.0";
     const title = this.getAttribute("title") || "Título";
     const text = this.getAttribute("text") || "Texto do card";
 

@@ -3,7 +3,7 @@ export class BlogCardGrid extends HTMLElement {
     this.innerHTML = `<p class="text-center">Carregando conteúdos...</p>`;
 
     try {
-      const res = await fetch("public/config/blog/blogSection.json?v=3.0.0");
+      const res = await fetch("public/config/blog/blogSection.json?v=4.0.0");
       const blogCards = await res.json();
 
       if (!Array.isArray(blogCards)) {
@@ -20,7 +20,7 @@ export class BlogCardGrid extends HTMLElement {
       const cards = limitedCards
         .map(
           (item) => `
-          <a href="/src/pages/blog/posts/index.html?id=${item.originalIndex}&v=3.0.0" class="block cursor-pointer w-full">
+          <a href="/src/pages/blog/posts/index.html?id=${item.originalIndex}&v=4.0.0" class="block cursor-pointer w-full">
             <div class="relative group overflow-hidden bg-white" style="aspect-ratio: 4 / 3;">
               <img
                 src="${item.image}"

@@ -20,7 +20,7 @@ export class BannerSection extends HTMLElement {
             assegurando a segurança e bem-estar de todos os envolvidos,
             enquanto entregamos obras com a mais alta qualidade.
           </p>
-          <button-white href="/src/pages/contact/index.html?v=3.0.0" text="Entre em Contato!"></button-white>
+          <button-white href="/src/pages/contact/index.html?v=4.0.0" text="Entre em Contato!"></button-white>
         </div>
       </div>
       </section>

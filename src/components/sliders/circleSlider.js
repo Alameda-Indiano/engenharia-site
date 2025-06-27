@@ -1,4 +1,4 @@
-import "./circles.js?v=3.0.0";
+import "./circles.js?v=4.0.0";
 
 export class CircleSlider extends HTMLElement {
   async connectedCallback() {
@@ -6,7 +6,7 @@ export class CircleSlider extends HTMLElement {
 
     try {
       const res = await fetch(
-        "/public/config/homepage/circleSlider.json?v=3.0.0"
+        "/public/config/homepage/circleSlider.json?v=4.0.0"
       );
       this.slides = await res.json();
 
