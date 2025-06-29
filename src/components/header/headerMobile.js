@@ -6,7 +6,7 @@ export class HeaderMobile extends HTMLElement {
       <div class="w-full bg-header-primary text-text-primary px-6 py-2 min-h-16">
         <div class="max-w-screen-xl mx-auto flex justify-between items-center">
           <img
-            src="/public/images/logos/verticalLogoBlack.svg?v=4.0.0"
+            src="/public/images/logos/verticalLogoBlack.svg?v=5.0.0"
             width="64"
             alt="Logo Capella"
           />
@@ -18,8 +18,8 @@ export class HeaderMobile extends HTMLElement {
 
       <ul id="mobile-menu"
         class="hidden flex-col bg-secondary text-text-secondary px-6 py-6 font-semibold text-base absolute w-full top-full left-0 z-40 transition-all duration-300 ease-in-out opacity-0 -translate-y-2 space-y-2 shadow-lg">
-        <li><a href="/index.html?v=4.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Home</a></li>
-        <li><a href="/src/pages/about/index.html?v=4.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Sobre</a></li>
+        <li><a href="/index.html?v=5.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Home</a></li>
+        <li><a href="/src/pages/about/index.html?v=5.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Sobre</a></li>
 
         <li id="solucoes-toggle" class="py-2 px-2 flex items-center justify-between hover:bg-shadow-secondary rounded transition-colors cursor-pointer">
           <span>Soluções</span>
@@ -27,13 +27,13 @@ export class HeaderMobile extends HTMLElement {
         </li>
         <ul id="submenu-solucoes" class="hidden flex-col pl-4 space-y-1">
           <li>
-            <a href="/src/pages/solutions/civil/index.html?v=4.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Obra Industrial Civil</a>
+            <a href="/src/pages/solutions/civil/index.html?v=5.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Obra Industrial Civil</a>
           </li>
           <li>
-            <a href="/src/pages/solutions/industrial/index.html?v=4.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Instalações Industriais</a>
+            <a href="/src/pages/solutions/industrial/index.html?v=5.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Instalações Industriais</a>
           </li>
           <li>
-            <a href="/src/pages/solutions/projects/index.html?v=4.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Projetos de Engenharia</a>
+            <a href="/src/pages/solutions/projects/index.html?v=5.0.0" class="block py-2 px-2 text-sm hover:bg-shadow-secondary rounded transition-colors">Projetos de Engenharia</a>
           </li>
         </ul>
 
@@ -53,8 +53,8 @@ export class HeaderMobile extends HTMLElement {
           </li>
         </ul>
 
-        <li><a href="/src/pages/blog/index.html?v=4.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Blog</a></li>
-        <li><a href="/src/pages/contact/index.html?v=4.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Contato</a></li>
+        <li><a href="/src/pages/blog/index.html?v=5.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Blog</a></li>
+        <li><a href="/src/pages/contact/index.html?v=5.0.0" class="block py-2 px-2 hover:bg-shadow-secondary rounded transition-colors">Contato</a></li>
       </ul>
     `;
 

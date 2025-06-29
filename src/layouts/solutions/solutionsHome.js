@@ -12,7 +12,7 @@ export class ImageTextSection extends HTMLElement {
             <hr class="w-16 h-1 bg-text-details"/>
           </div>
         </div>
-        <div class="w-full lg:w-[80%] h-auto lg:h-[560px]">
+        <div class="w-full lg:w-[70%] h-auto lg:h-[555px]">
           <img
             src="${imgSrc}"
             alt="${text}"

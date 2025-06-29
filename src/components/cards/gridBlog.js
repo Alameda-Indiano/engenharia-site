@@ -3,17 +3,37 @@ export class BlogGrid extends HTMLElement {
     this.innerHTML = `<p class="text-center">Carregando conteúdos...</p>`;
     try {
       const res = await fetch(
-        "../../../public/config/blog/blogSection.json?v=4.0.0"
+        "../../../public/config/blog/blogSection.json?v=5.0.0"
       );
       const posts = await res.json();
-
       if (!Array.isArray(posts)) {
         this.innerHTML = `<p class="text-center text-red-500">Erro ao carregar os dados dos cards.</p>`;
         return;
       }
 
+      // pega os posts a partir do 4º
       this.posts = posts.slice(3);
-      this.filteredPosts = posts.slice();
+
+      // pré-carrega rawText de cada publication
+      await Promise.all(
+        this.posts.map(async (item) => {
+          const pub = item.post.publication;
+          if (typeof pub === "string" && pub.endsWith(".html")) {
+            const html = await fetch(pub).then((r) => r.text());
+            const tmp = document.createElement("div");
+            tmp.innerHTML = html;
+            item.post.rawText = tmp.innerText.replace(/\s+/g, " ").trim();
+          } else {
+            const raw = Array.isArray(pub) ? pub.join(" ") : String(pub);
+            item.post.rawText = raw
+              .replace(/<[^>]+>/g, " ")
+              .replace(/\s+/g, " ")
+              .trim();
+          }
+        })
+      );
+
+      this.filteredPosts = this.posts.slice();
       this.searchTerm = "";
       this.currentPage = 1;
       this.itemsPerPage = 6;
@@ -49,15 +69,14 @@ export class BlogGrid extends HTMLElement {
     `;
 
     if (!document.querySelector('link[href*="font-awesome"]')) {
-      const faLink = document.createElement("link");
-      faLink.rel = "stylesheet";
-      faLink.href =
+      const fa = document.createElement("link");
+      fa.rel = "stylesheet";
+      fa.href =
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-      document.head.appendChild(faLink);
+      document.head.appendChild(fa);
     }
 
-    const input = this.querySelector("#searchInput");
-    input.addEventListener("input", (e) => {
+    this.querySelector("#searchInput").addEventListener("input", (e) => {
       this.searchTerm = e.target.value.trim().toLowerCase();
       this.currentPage = 1;
       this.applyFilter();
@@ -69,130 +88,100 @@ export class BlogGrid extends HTMLElement {
   }
 
   applyFilter() {
-    const termo = this.searchTerm;
-
-    if (termo === "") {
+    const termo = this.searchTerm.toLowerCase();
+    if (!termo) {
       this.filteredPosts = this.posts.slice();
     } else {
       this.filteredPosts = this.posts.filter((item) => {
-        const titleMatch = item.title.toLowerCase().includes(termo);
-
-        let rawPub = Array.isArray(item.post.publication)
-          ? item.post.publication.join(" ")
-          : item.post.publication;
-        rawPub = rawPub.replace(/<[^>]+>/g, "").toLowerCase();
-
-        const contentMatch = rawPub.includes(termo);
-        return titleMatch || contentMatch;
+        const inTitle = item.title.toLowerCase().includes(termo);
+        const inPub = (item.post.rawText || "").toLowerCase().includes(termo);
+        return inTitle || inPub;
       });
     }
-
     this.totalPages = Math.ceil(this.filteredPosts.length / this.itemsPerPage);
   }
 
   renderGrid() {
     const container = this.querySelector("#gridContainer");
-
     if (this.filteredPosts.length === 0) {
       container.innerHTML = `
         <div class="text-center text-gray-600 py-16">
-          Nenhum resultado encontrado para "<span class=\"font-semibold text-gray-800\">${this.searchTerm}</span>".
-        </div>
-      `;
+          Nenhum resultado para "<span class="font-semibold text-gray-800">${this.searchTerm}</span>".
+        </div>`;
       return;
     }
-
-    if (this.currentPage > this.totalPages) {
-      this.currentPage = this.totalPages;
-    }
+    if (this.currentPage > this.totalPages) this.currentPage = this.totalPages;
 
     const start = (this.currentPage - 1) * this.itemsPerPage;
     const end = start + this.itemsPerPage;
     const pageItems = this.filteredPosts.slice(start, end);
 
     const cardsHtml = pageItems
-      .map((item, idxInSlice) => {
-        const realIndex = start + idxInSlice;
+      .map((item, idx) => {
+        const index = start + idx;
 
-        let rawPub = Array.isArray(item.post.publication)
-          ? item.post.publication.join(" ")
-          : item.post.publication;
-        rawPub = rawPub.replace(/<[^>]+>/g, "").trim();
+        // **aqui usamos item.summary primeiro, depois rawText**
+        const src = item.summary?.trim()
+          ? item.summary.trim()
+          : item.post.rawText || "";
+
         const snippet =
-          rawPub.length > 120 ? rawPub.slice(0, 120).trim() + "..." : rawPub;
+          src.length > 120 ? src.slice(0, 120).trim() + "..." : src;
 
         return `
-          <div
-            data-index="${realIndex}"
-            class="card bg-white rounded-lg overflow-hidden shadow h-full flex flex-col w-full max-w-sm cursor-pointer"
-          >
-            <div class="px-4 py-6">
-              <h3 class="text-text-medium text-lg font-bold leading-tight">
-                ${item.title}
-              </h3>
-            </div>
-            <div class="w-full h-48 overflow-hidden">
-              <img
-                src="${item.image}"
-                alt="${item.title}"
-                class="block w-full h-full object-cover object-center transform scale-125"
-              />
-            </div>
-            <div class="px-4 py-4 flex-1 flex flex-col">
-              <p class="text-gray-600 text-sm flex-1 mb-4">
-                ${snippet}
-              </p>
-              <a
-                href="/src/pages/blog/posts/index.html?id=${realIndex}&v=4.0.0"
-                class="mt-auto text-text-details font-medium"
-              >
-                Saiba Mais
-              </a>
-            </div>
+        <div data-index="${index}"
+             class="card bg-white rounded-lg overflow-hidden shadow h-full flex flex-col w-full max-w-sm cursor-pointer">
+          <div class="px-4 py-6">
+            <h3 class="text-text-medium text-lg font-bold leading-tight">${item.title}</h3>
           </div>
-        `;
+          <div class="w-full h-48 overflow-hidden">
+            <img src="${item.image}"
+                 alt="${item.title}"
+                 class="block w-full h-full object-cover object-center transform scale-125"/>
+          </div>
+          <div class="px-4 py-4 flex-1 flex flex-col">
+            <p class="text-gray-600 text-sm flex-1 mb-4 line-clamp-3">${snippet}</p>
+            <a href="/src/pages/blog/posts/index.html?id=${index}&v=5.0.0"
+               class="mt-auto text-text-details font-medium">Saiba Mais</a>
+          </div>
+        </div>`;
       })
       .join("");
 
     const paginationHtml = `
       <div class="flex justify-center mt-16 space-x-2">
         ${Array.from({ length: this.totalPages }, (_, i) => {
-          const isActive = this.currentPage === i + 1;
+          const page = i + 1;
+          const active = page === this.currentPage;
           return `
-            <button
-              data-page="${i + 1}"
-              class="px-3 py-1 rounded ${
-                isActive
-                  ? "bg-secondary text-white"
-                  : "bg-white text-gray-700 border border-gray-300 hover:bg-gray-100"
-              }"
-            >
-              ${i + 1}
-            </button>
-          `;
+            <button data-page="${page}"
+                    class="px-3 py-1 rounded ${
+                      active
+                        ? "bg-secondary text-white"
+                        : "bg-white text-gray-700 border border-gray-300 hover:bg-gray-100"
+                    }">${page}</button>`;
         }).join("")}
-      </div>
-    `;
+      </div>`;
 
     container.innerHTML = `
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
         ${cardsHtml}
       </div>
-      ${paginationHtml}
-    `;
+      ${paginationHtml}`;
 
-    this.querySelectorAll("#gridContainer .card").forEach((card) => {
+    // clique no card
+    this.querySelectorAll(".card").forEach((card) => {
       card.addEventListener("click", () => {
-        const id = Number(card.getAttribute("data-index")) + 3;
+        const id = Number(card.dataset.index) + 3;
         window.location.href = `/src/pages/blog/posts/index.html?id=${id}`;
       });
     });
-
+    // paginação
     this.querySelectorAll("[data-page]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
-        const selected = Number(e.currentTarget.getAttribute("data-page"));
-        if (selected !== this.currentPage) {
-          this.currentPage = selected;
+        const page = Number(e.currentTarget.dataset.page);
+        if (page !== this.currentPage) {
+          this.currentPage = page;
           this.renderGrid();
         }
       });

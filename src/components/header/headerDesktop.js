@@ -5,7 +5,7 @@ export class HeaderCustom extends HTMLElement {
         <div id="logo-link" class="cursor-pointer">
           <img
             id="logo-img"
-            src="/public/images/logos/verticalLogoBlack.svg?v=4.0.0"
+            src="/public/images/logos/verticalLogoBlack.svg?v=5.0.0"
             width="64"
             alt="Logotipo Capella Engenharia"
           />
@@ -13,11 +13,11 @@ export class HeaderCustom extends HTMLElement {
         <nav class="flex-1">
           <ul class="flex justify-center gap-14 items-center font-[600] text-sm text-text-primary">
             <li class="relative group">
-              <a href="/index.html?v=4.0.0" class="transition-colors duration-300 group-hover:text-text-details">Home</a>
+              <a href="/index.html?v=5.0.0" class="transition-colors duration-300 group-hover:text-text-details">Home</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li class="relative group cursor-pointer">
-              <a href="/src/pages/about/index.html?v=4.0.0" class="transition-colors duration-300 group-hover:text-text-details">Sobre</a>
+              <a href="/src/pages/about/index.html?v=5.0.0" class="transition-colors duration-300 group-hover:text-text-details">Sobre</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li id="solucoes-menu" class="relative group cursor-pointer">
@@ -28,17 +28,17 @@ export class HeaderCustom extends HTMLElement {
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
               <ul id="sub-menu-solucoes" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-[350px] z-50 text-left space-y-3">
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="/src/pages/solutions/civil/index.html?v=4.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/solutions/civil/index.html?v=5.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
                       Guia Básico de Industria Civil para Atuação da Capella Engenharia
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="/src/pages/solutions/industrial/index.html?v=4.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/solutions/industrial/index.html?v=5.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
                       Guia Básico das Instalações Industriais para Atuação da Capella Engenharia
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="/src/pages/solutions/projects/index.html?v=4.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/solutions/projects/index.html?v=5.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
                       Guia Básico de Projetos de Engenharia para Atuação da Capella Engenharia
                   </a>
                 </li>
@@ -52,12 +52,12 @@ export class HeaderCustom extends HTMLElement {
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
               <ul id="sub-menu-governanca" class="absolute left-0 top-full mt-2 hidden flex-col bg-secondary text-text-secondary rounded-b-md shadow-lg py-4 px-6 w-72 z-50 text-left space-y-3">
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="/src/pages/blog/posts/index.html?id=0&v=4.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/blog/posts/index.html?id=0&v=5.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
                     Política de Privacidade - LGPD
                   </a>
                 </li>
                 <li class="flex items-center gap-2 before:content-['•'] before:text-white before:text-lg before:leading-none">
-                  <a href="/src/pages/blog/posts/index.html?id=1&v=4.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
+                  <a href="/src/pages/blog/posts/index.html?id=1&v=5.0.0" class="hover:text-text-details transition-colors duration-300 font-medium">
                     Relatório de Impacto à Proteção de Dados Pessoais (RIPD)
                   </a>
                 </li>
@@ -69,21 +69,21 @@ export class HeaderCustom extends HTMLElement {
               </ul>
             </li>
             <li class="relative group cursor-pointer">
-              <a href="/src/pages/blog/index.html?v=4.0.0" class="transition-colors duration-300 group-hover:text-text-details">Blog</a>
+              <a href="/src/pages/blog/index.html?v=5.0.0" class="transition-colors duration-300 group-hover:text-text-details">Blog</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
             <li class="relative group cursor-pointer">
-              <a href="/src/pages/contact/index.html?v=4.0.0" class="transition-colors duration-300 group-hover:text-text-details">Contato</a>
+              <a href="/src/pages/contact/index.html?v=5.0.0" class="transition-colors duration-300 group-hover:text-text-details">Contato</a>
               <span class="absolute left-0 -bottom-1 w-0 h-[2px] bg-text-details transition-all duration-300 group-hover:w-full"></span>
             </li>
           </ul>
         </nav>
         <div class="flex items-center gap-4">
           <a href="https://www.linkedin.com/company/capella-solu%C3%A7%C3%B5es-em-engenharia/posts/?feedView=all&viewAsMember=true" class="transition-transform duration-300 hover:scale-110">
-            <img class="w-6 h-6" src="/public/images/icons/linkedin.svg?v=4.0.0" alt="LinkedIn"/>
+            <img class="w-6 h-6" src="/public/images/icons/linkedin.svg?v=5.0.0" alt="LinkedIn"/>
           </a>
           <a href="https://www.instagram.com/capella.eng?utm_source=qr&igsh=ZWd2ZXVmaGVwMzl6" class="transition-transform duration-300 hover:scale-110">
-            <img class="w-6 h-6" src="/public/images/icons/instagram.svg?v=4.0.0" alt="Instagram"/>
+            <img class="w-6 h-6" src="/public/images/icons/instagram.svg?v=5.0.0" alt="Instagram"/>
           </a>
         </div>
       </header>

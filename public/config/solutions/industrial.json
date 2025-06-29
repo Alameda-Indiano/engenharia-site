@@ -1,18 +1,38 @@
 [
   {
-    "title": "Instalações Elétricas de Baixa Tensão",
-    "description": "Projetamos e executamos sistemas elétricos seguros e eficientes para ambientes industriais. Nossas soluções garantem alimentação contínua para máquinas, equipamentos e iluminação, com total conformidade às normas técnicas."
+    "title": "Construção de Galpões Industriais e Logísticos",
+    "description": "Soluções completas para centros de produção, armazenamento e distribuição. Nossos projetos garantem infraestrutura robusta, grandes vãos livres e alto desempenho estrutural, com planejamento inteligente e execução de excelência"
   },
   {
-    "title": "Instalações Hidráulicas e Drenagem",
-    "description": "Desenvolvemos sistemas para abastecimento de água potável e coleta de águas pluviais e servidas. Garantimos funcionalidade e proteção à edificação, assegurando a durabilidade das estruturas."
+    "title": "Espaços Corporativos",
+    "description": "Projetamos ambientes administrativos funcionais e confortáveis dentro de áreas industriais. Combinamos design, ergonomia e produtividade para promover o bem-estar dos colaboradores e a eficiência dos processos."
   },
   {
-    "title": "Instalação de Rede de Dutos",
-    "description": "Executamos redes de dutos para cabos elétricos, dados ou fluidos, com foco em organização e segurança. Nossas soluções estruturam a infraestrutura industrial com eficiência e precisão."
+    "title": "Execução de Pisos Intertravados",
+    "description": "Indicados para áreas externas, esses pisos oferecem resistência, drenagem eficiente e baixa manutenção. Ideais para tráfego leve a moderado, proporcionam acabamento durável e visual moderno."
   },
   {
-    "title": "Instalações de Incêndio, Hidrantes e Sprinklers",
-    "description": "Oferecemos sistemas completos de combate a incêndio, incluindo alarmes, hidrantes e sprinklers. Garantimos proteção à vida e ao patrimônio, conforme as normas técnicas de segurança contra incêndios."
+    "title": "Execução de Pisos de Concreto",
+    "description": "Duráveis e resistentes a impactos, os pisos de concreto são perfeitos para galpões, pátios industriais e áreas de carga. Podem ser reforçados com fibras ou armaduras metálicas para maior desempenho e vida útil."
+  },
+  {
+    "title": "Contratos de Manutenção Industrial",
+    "description": "Oferecemos manutenção preventiva e corretiva para manter o pleno funcionamento das instalações, evitando paradas inesperadas e prolongando a vida útil de equipamentos e sistemas industriais."
+  },
+  {
+    "title": "Construção de Postos de Combustível",
+    "description": "Realizamos obras completas de postos com foco em segurança e conformidade ambiental. Da fundação à instalação de tanques e acabamentos, seguimos rigorosamente as normas técnicas e exigências regulatórias."
+  },
+  {
+    "title": "Instalação de Tanques e Reservatórios",
+    "description": "Especialistas em sistemas para armazenamento seguro de líquidos como água, combustíveis e produtos químicos. Atuamos com precisão técnica e escolha criteriosa de materiais conforme o tipo de fluido armazenado."
+  },
+  {
+    "title": "Obras de Terra, Escavação e Terraplanagem",
+    "description": "Essenciais para preparar o terreno, essas etapas garantem nivelamento e estabilidade do solo, oferecendo a base ideal para construções seguras, duráveis e dentro do cronograma."
+  },
+  {
+    "title": "Estruturas Metálicas e Coberturas",
+    "description": "Ágeis na montagem e altamente resistentes, nossas estruturas metálicas são ideais para projetos industriais e corporativos modernos. Garantem versatilidade, segurança e otimização de prazos."
   }
 ]

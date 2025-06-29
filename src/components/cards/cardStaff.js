@@ -3,7 +3,7 @@ export class StaffSection extends HTMLElement {
     this.innerHTML = `<p class="text-center">Carregando equipe...</p>`;
 
     try {
-      const res = await fetch("public/config/homepage/staff.json?v=4.0.0");
+      const res = await fetch("public/config/homepage/staff.json?v=5.0.0");
       const staffConfig = await res.json();
       if (!Array.isArray(staffConfig)) throw new Error("Dados inválidos");
 
@@ -42,7 +42,7 @@ export class StaffSection extends HTMLElement {
           aria-label="LinkedIn"
           class="transition-transform duration-200 hover:scale-110"
         >
-          <img width="22" src="public/images/icons/linkedin.svg?v=4.0.0" alt="LinkedIn"/>
+          <img width="22" src="public/images/icons/linkedin.svg?v=5.0.0" alt="LinkedIn"/>
         </a>
       </div>
     </div>
