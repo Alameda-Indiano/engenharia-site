@@ -1,5 +1,5 @@
-import "/src/components/buttons/buttomGradient.js?v=5.0.0";
-import "/src/layouts/headerLayout/layout.js?v=5.0.0";
+import "/src/components/buttons/buttomGradient.js?v=6.0.0";
+import "/src/layouts/headerLayout/layout.js?v=6.0.0";
 
 (async () => {
   const params = new URLSearchParams(window.location.search);
@@ -9,7 +9,7 @@ import "/src/layouts/headerLayout/layout.js?v=5.0.0";
 
   try {
     // 1) carrega o array de posts
-    const res = await fetch("/public/config/blog/blogSection.json?v=5.0.0");
+    const res = await fetch("/public/config/blog/blogSection.json?v=6.0.0");
     const posts = await res.json();
     if (!Array.isArray(posts) || index >= posts.length) return;
     const post = posts[index];
@@ -31,7 +31,7 @@ import "/src/layouts/headerLayout/layout.js?v=5.0.0";
 
     // 4) carrega o HTML de publication
     const contentDiv = document.querySelector("#post-content");
-    const htmlRes = await fetch(pubPath + "?v=5.0.0");
+    const htmlRes = await fetch(pubPath + "?v=6.0.0");
     if (!htmlRes.ok)
       throw new Error(`Não foi possível carregar o HTML em ${pubPath}`);
     const htmlText = await htmlRes.text();

@@ -1,6 +1,6 @@
-import "../../components/footer/footer.js?v=5.0.0";
-import "../../components/header/headerDesktop.js?v=5.0.0";
-import "../../components/header/headerMobile.js?v=5.0.0";
+import "../../components/footer/footer.js?v=6.0.0";
+import "../../components/header/headerDesktop.js?v=6.0.0";
+import "../../components/header/headerMobile.js?v=6.0.0";
 
 export class LayoutHeaderAndFooter extends HTMLElement {
   connectedCallback() {

@@ -1,70 +1,70 @@
 [
   {
-    "image": "/public/images/svg/policies/privacity.svg?v=5.0.0",
+    "image": "/public/images/svg/policies/privacity.svg?v=6.0.0",
     "title": "Política de Privacidade - LGPD",
     "summary": "",
     "post": {
       "date": "07/06/2025",
-      "publication": "/public/config/blog/publication/policies.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/policies.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/policies/report.svg?v=5.0.0",
+    "image": "/public/images/svg/policies/report.svg?v=6.0.0",
     "title": "Relatório de Impacto à Proteção de Dados Pessoais (RIPD)",
     "summary": "",
     "post": {
       "date": "07/06/2025",
-      "publication": "/public/config/blog/publication/ripd.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/ripd.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/policies/codeOfConduct.svg?v=5.0.0",
+    "image": "/public/images/svg/policies/codeOfConduct.svg?v=6.0.0",
     "title": "Código de Conduta, Moral e Ética: Compromisso com a Integridade e o Respeito",
     "summary": "",
     "post": {
       "date": "07/06/2025",
-      "publication": "/public/config/blog/publication/codeOfConduct.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/codeOfConduct.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/kpis.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/kpis.svg?v=6.0.0",
     "title": "Indicadores de Desempenho: A Nova Engenharia Orientada a Resultados",
     "summary": " Em projetos de engenharia — sejam eles residenciais, industriais, logísticos ou hospitalares — não é mais suficiente entregar obras dentro do escopo físico. O verdadeiro sucesso de um projeto hoje é medido pela sua eficiência operacional, custo controlado, prazos ajustados e principalmente pela capacidade de gerar valor sustentável ao negócio do cliente. Neste cenário, indicadores de desempenho (KPIs) assumem um papel central na engenharia moderna, integrando conceitos avançados de",
     "post": {
       "date": "07/06/2025",
-      "publication": "/public/config/blog/publication/kpis.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/kpis.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/methodGrooved.svg?v=6.0.0",
     "title": "Método Grooved para Sistemas de Combate a Incêndio: Agilidade, Segurança e Excelência Técnica",
     "summary": " Em edificações residenciais, comerciais e industriais, especialmente aquelas com grande circulação de pessoas ou operações críticas, um sistema de combate a incêndio eficiente e bem projetado é um dos elementos mais estratégicos da infraestrutura. Ele não apenas protege vidas, mas também garante a preservação de ativos, evita a interrupção de operações e cumpre rigorosamente as exigências legais e normativas.",
     "post": {
       "date": "07/06/2025",
-      "publication": "/public/config/blog/publication/methodGrooved.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/methodGrooved.html?v=6.0.0"
     }
   },
 
   {
-    "image": "/public/images/svg/home/bloghome/finances.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/finances.svg?v=6.0.0",
     "title": "Planejamento, Custo e Qualidade: o tripé esquecido que transforma obras comuns em projetos de valor",
     "summary": "No dia a dia da construção civil, principalmente entre empresas de pequeno e médio porte, ainda é comum vermos uma lógica que se repete: vencer a concorrência, fechar o contrato e entregar a obra. Parece suficiente, certo?",
     "post": {
       "date": "01/08/2025",
-      "publication": "/public/config/blog/publication/finances.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/finances.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/security.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/security.svg?v=6.0.0",
     "title": "Segurança do Trabalho em Obras de Pequeno e Médio Porte: Por que ainda é negligenciada — e como pode se tornar um diferencial competitivo",
     "summary": " É comum observar que, no setor da construção civil, as maiores preocupações em relação à segurança do trabalho são mais evidentes em grandes empreendimentos. Projetos de grande porte geralmente possuem estruturas robustas de compliance, auditorias constantes, fiscalização frequente e, por isso, adotam com mais rigor práticas preventivas para evitar acidentes e riscos à saúde ocupacional.",
     "post": {
       "date": "01/08/2025",
-      "publication": "/public/config/blog/publication/security.html?v=5.0.0"
+      "publication": "/public/config/blog/publication/security.html?v=6.0.0"
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/7.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/7.svg?v=6.0.0",
     "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
     "summary": "",
     "post": {
@@ -73,7 +73,7 @@
     }
   },
   {
-    "image": "/public/images/svg/home/bloghome/6.svg?v=5.0.0",
+    "image": "/public/images/svg/home/bloghome/6.svg?v=6.0.0",
     "title": "Tendências em Infraestrutura Urbana para os Próximos 10 Anos",
     "summary": "",
     "post": {
